@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light sticky-top">
+<nav class="navbar navbar-expand-lg navbar-light sticky-top scrolling-navbar">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
             aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -21,11 +21,11 @@
 
             <!-- Dropdown -->
             <li class="nav-item dropdown text-center px-3">
-                <a class="btn-floating btn-md cloudy-knoxville-gradient dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="btn-floating waves-effect btn-md cloudy-knoxville-gradient dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="black-text far fa-eye fa-lg"></i>
                 </a>
                 <div class="dropdown-menu dropdown-primary" aria-labelledby="dropdown">
-                    <a class="dropdown-item black" href="#">Quartiers</a>
+                    <a class="dropdown-item" href="#">Quartiers</a>
                     <a class="dropdown-item" href="#">Rues</a>
                     <a class="dropdown-item" href="#">Parcelles</a>
                     <a class="dropdown-item" href="#">Propriétaires</a>
@@ -40,7 +40,7 @@
 
             <!-- Recherche avancée -->
             <li class="nav-item text-center px-3">
-                <a class="btn-floating btn-md cloudy-knoxville-gradient" href="#">
+                <a class="btn-floating waves-effect  btn-md cloudy-knoxville-gradient" href="#">
                     <i class="black-text fas fa-search fa-lg"></i>
                 </a>
                 <p>
@@ -50,7 +50,7 @@
 
             <!-- Aide & Contact -->
             <li class="nav-item text-center px-3">
-                <a class="btn-floating btn-md cloudy-knoxville-gradient" href="#">
+                <a class="btn-floating waves-effect btn-md cloudy-knoxville-gradient" href="#">
                     <i class="black-text far fa-life-ring fa-lg"></i>
                 </a>
                 <p>
@@ -60,7 +60,7 @@
 
             <!-- Connexion -->
             <li class="nav-item text-center px-3">
-                <a class="btn-floating btn-md cloudy-knoxville-gradient" href="#">
+                <a class="btn-floating waves-effect btn-md cloudy-knoxville-gradient" href="#">
                     <i class="black-text fas fa-user fa-lg"></i>
                 </a>
                 <p>

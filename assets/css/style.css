@@ -26,3 +26,7 @@ header,
         background-color: #24355C;
     }
 }
+
+.top-nav-collapse {
+    background-color: white !important;
+}
