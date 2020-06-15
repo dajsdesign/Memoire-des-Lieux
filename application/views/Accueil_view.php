@@ -264,7 +264,7 @@
                         <!--Grid column-->
                         <div class="col-lg-4 col-md-12 mb-3">
 
-                            <p><i class="fa fa-map fa-1x mr-2 brown-text lighten-2"></i>New York, NY 10012</p>
+                            <p><i class="fa fa-map fa-1x mr-2 brown-text lighten-2"></i>Troyes, 10000</p>
 
                         </div>
                         <!--Grid column-->
@@ -272,7 +272,7 @@
                         <!--Grid column-->
                         <div class="col-lg-4 col-md-6 mb-3">
 
-                            <p><i class="fa fa-building fa-1x mr-2 brown-text lighten-2"></i>Mon - Fri, 8:00-22:00</p>
+                            <p><i class="fa fa-building fa-1x mr-2 brown-text lighten-2"></i>Lundi - Samedi, 8:00-22:00</p>
 
                         </div>
                         <!--Grid column-->
@@ -280,7 +280,7 @@
                         <!--Grid column-->
                         <div class="col-lg-4 col-md-6 mb-3">
 
-                            <p><i class="fa fa-phone fa-1x mr-2 brown-text lighten-2"></i>+ 01 234 567 89</p>
+                            <p><i class="fa fa-phone fa-1x mr-2 brown-text lighten-2"></i>+ 03 05 16 46 58</p>
 
                         </div>
                         <!--Grid column-->
