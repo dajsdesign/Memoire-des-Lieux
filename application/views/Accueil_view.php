@@ -1,9 +1,30 @@
 <?php $this->load->view('Head_view'); ?>
 
 <body class="">
-
 <?php $this->load->view('Navbar_view'); ?>
-<!-- TON CODE ICI -->
+<div class="container">
+    <p class="py-5">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis nunc tellus. Fusce auctor lorem eget vehicula semper. Quisque vitae congue est, vel accumsan velit. Donec eu imperdiet augue, eget lobortis odio. Nam vel sem non velit imperdiet porta nec pharetra mauris. Nunc imperdiet mauris lectus, eu pharetra erat cursus sed. Fusce neque nunc, scelerisque eget enim ut, bibendum interdum sem.
+
+Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse augue justo, ultricies et diam vel, mollis dignissim magna. Pellentesque sed tincidunt erat, at sollicitudin sapien. Praesent in fermentum velit, non rutrum erat. Integer auctor nec nunc ac pretium. Vivamus at libero id tortor mollis suscipit a sit amet enim. Pellentesque sit amet malesuada lacus. Donec quam lectus, ornare consectetur suscipit sit amet, ullamcorper at turpis. Suspendisse nulla felis, accumsan at urna at, suscipit porttitor quam. Ut posuere at massa eu blandit. Donec nisl tortor, viverra sit amet augue eget, aliquam congue lorem. Ut nec posuere massa. Maecenas mollis diam at lacus vulputate, at volutpat tellus iaculis.
+
+Cras viverra tempus malesuada. Nam vitae varius tortor, sed placerat sem. Sed vel placerat nisi, sed tincidunt quam. Etiam finibus accumsan suscipit. Cras at ex at elit tincidunt luctus. Nunc feugiat vel enim ac malesuada. Aliquam erat volutpat. In hac habitasse platea dictumst. Phasellus pharetra finibus rutrum. Suspendisse ac lorem ut felis gravida consequat. Phasellus in tincidunt nulla. Maecenas vel mollis arcu. Cras aliquam erat tempus, suscipit augue sed, dignissim tellus. Donec lobortis arcu in purus venenatis posuere id et orci. Duis vehicula ex sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
+Nunc nisi diam, vehicula vel enim vitae, varius euismod mi. Etiam ornare ultricies interdum. Praesent vestibulum rhoncus malesuada. Curabitur enim quam, mollis non metus id, iaculis fringilla orci. Donec eget vehicula sem. Donec a pharetra ante, at consectetur metus. Praesent ornare efficitur enim, at accumsan libero bibendum ac. Nam vel nunc ultrices, egestas nisl at, vestibulum velit. Aenean id metus eu neque pretium vestibulum ac quis quam. Aenean commodo sit amet nisi nec dapibus.
+
+Morbi consequat leo sed nisi sollicitudin, nec lacinia mauris iaculis. Quisque dictum euismod ligula interdum consectetur. Integer maximus ut magna ac lobortis. Sed hendrerit leo sapien, a venenatis quam varius a. Aenean porta molestie nulla. Integer eget iaculis magna. Maecenas lobortis varius mi eu condimentum. Integer pellentesque justo et lorem convallis cursus. Maecenas vel turpis metus. Maecenas fermentum libero ut tempor euismod.
+
+Nulla consectetur justo dui, eget interdum arcu imperdiet sed. Pellentesque at iaculis est, et tincidunt purus. Nunc hendrerit ultrices cursus. Phasellus dignissim condimentum turpis condimentum vestibulum. Etiam ac luctus nisi, a tincidunt tellus. Integer maximus, nunc vitae consequat auctor, dolor velit finibus ligula, eu consectetur odio ligula nec lacus. Donec sagittis dui eget ipsum condimentum commodo.
+
+Praesent in faucibus ante, nec rhoncus enim. Maecenas consectetur, lacus id pulvinar hendrerit, sapien magna eleifend ipsum, eget finibus quam metus et sapien. Donec consequat dolor ut elit volutpat maximus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras sed dolor felis. Sed neque purus, fringilla vitae laoreet quis, eleifend ut nulla. Ut eget erat dui. Sed mollis felis in turpis ultrices, id hendrerit lectus cursus. Cras sed finibus eros. Maecenas luctus sit amet massa a dignissim. Etiam volutpat felis quis lacus placerat, nec eleifend magna pulvinar. Maecenas arcu nibh, pellentesque in quam eu, pharetra ornare leo. Sed pulvinar, sapien non bibendum vulputate, orci ligula finibus enim, a aliquam tortor elit id nibh. Vestibulum ut lorem neque. Donec tempor varius auctor.
+
+Pellentesque vitae pretium augue, sit amet facilisis ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer fringilla arcu ex. Nunc cursus orci vitae mauris fringilla facilisis id vitae ipsum. Aenean scelerisque massa sit amet ipsum ornare tristique. Fusce a viverra erat. Vestibulum tristique molestie pulvinar. Fusce aliquam, ligula non egestas pretium, odio felis blandit dui, quis congue purus nibh id est. Nulla dictum est lacinia mi commodo interdum. Suspendisse et laoreet ante. Sed ut egestas quam, eu varius dolor. Cras velit leo, pulvinar at rutrum eu, elementum a orci. Aenean tempus condimentum massa a aliquam. Fusce aliquam fermentum justo ut pulvinar. Praesent vitae condimentum tellus.
+
+Cras consectetur nulla tempor libero tincidunt, ut feugiat tellus gravida. Sed eget euismod ante. Aliquam metus justo, blandit id aliquam sed, elementum vel libero. Donec vitae pellentesque ipsum. Nam gravida augue a mi auctor tincidunt. Nulla rhoncus elit ut lectus porta, vitae egestas nisi cursus. Etiam molestie ligula eu egestas interdum. Fusce gravida consequat nibh a porttitor. Sed non urna ultricies, volutpat purus eget, dignissim nulla. Maecenas at odio eu magna finibus sodales quis a lectus. Integer mauris turpis, consequat quis commodo non, luctus tristique urna. Morbi ut nunc dictum, consequat lacus at, malesuada dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat aliquam dui pulvinar aliquet. Pellentesque sollicitudin sapien odio, vel suscipit lorem euismod id. Nunc nec elementum mauris.
+
+Morbi eu semper enim. Sed a aliquet nulla. Nam feugiat, nisl ac aliquam convallis, est sapien mollis leo, at pharetra arcu erat et purus. Vestibulum malesuada varius dui at interdum. Vivamus eu vehicula eros. Maecenas vitae gravida velit, ut dictum risus. Ut viverra efficitur ante id pellentesque.
+    </p>
+</div>
 <?php $this->load->view('Footer_view'); ?>
 
 </body>
