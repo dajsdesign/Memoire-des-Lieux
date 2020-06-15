@@ -25,7 +25,7 @@
                     <i class="black-text far fa-eye fa-lg"></i>
                 </a>
                 <div class="dropdown-menu dropdown-primary" aria-labelledby="dropdown">
-                    <a class="dropdown-item" href="#">Quartiers</a>
+                    <a class="dropdown-item black" href="#">Quartiers</a>
                     <a class="dropdown-item" href="#">Rues</a>
                     <a class="dropdown-item" href="#">Parcelles</a>
                     <a class="dropdown-item" href="#">Propriétaires</a>
