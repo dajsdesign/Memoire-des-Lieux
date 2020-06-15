@@ -16,7 +16,7 @@
                 <div class="col-md-10">
 
                     <!-- Heading -->
-                    <img class="display-4 font-weight-bold white-text pt-5 mb-2" src="assets/img/logo.png">
+                    <img class="display-4 font-weight-bold white-text pt-5 mb-2" src="<?php basic_url()?>assets/img/logo_memoire-des-lieux.png">
 
                     <!-- Divider -->
                     <hr class="hr-light">
@@ -123,7 +123,7 @@
 
                 <!-- Card image -->
                 <div class="view view-cascade overlay">
-                    <img class="card-img-top" src="assets/img/rennes.png"
+                    <img class="card-img-top" src="<?php basic_url()?>assets/img/carte-interactive.png"
                          alt="Card image cap">
                     <a href="#!">
                         <div class="mask rgba-white-slight"></div>
