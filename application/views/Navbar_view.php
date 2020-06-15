@@ -21,13 +21,17 @@
 
             <!-- Dropdown -->
             <li class="nav-item dropdown text-center px-3">
-                <a class="btn-floating btn-md cloudy-knoxville-gradient" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <i class="black-text fas fa-search fa-lg"></i>
+                <a class="btn-floating btn-md cloudy-knoxville-gradient dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="black-text far fa-eye fa-lg"></i>
                 </a>
                 <div class="dropdown-menu dropdown-primary" aria-labelledby="dropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#">Quartiers</a>
+                    <a class="dropdown-item" href="#">Rues</a>
+                    <a class="dropdown-item" href="#">Parcelles</a>
+                    <a class="dropdown-item" href="#">Propriétaires</a>
+                    <a class="dropdown-item text-center" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="black-text far fa-times-circle fa-lg"></i>
+                    </a>
                 </div>
                 <p>
                     Consultation &#9776;
