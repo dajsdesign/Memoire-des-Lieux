@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 <?php $this->load->view('Head_view'); ?>
 <body class="orange lighten-5">
 <?php $this->load->view('Navbar_view'); ?>
