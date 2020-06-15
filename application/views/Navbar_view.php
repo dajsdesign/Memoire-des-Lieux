@@ -3,19 +3,65 @@
             aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <a class="navbar-brand" href="#">
-            <img src="<?php echo base_url() ?>assets/images/logo_memoire-des-lieux.png" height="50" alt="Logo Mémoire des Lieux">
+    <div class="collapse navbar-collapse w-100 scrolling-navbar" id="navbar">
+        <!-- Logo -->
+        <a class="navbar-brand" href="<?php echo base_url() ?>">
+            <img src="<?php echo base_url() ?>assets/images/logo_memoire-des-lieux.png" height="150" alt="Logo Mémoire des Lieux">
         </a>
-        <ul class="navbar-nav mr-auto mt-lg-0">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+
+        <!-- Recherche -->
+        <div class="container form-inline form-group w-100 md-form input-with-post-icon">
+            <input class="form-control mr-sm-2 w-100" type="text" placeholder="Recherche" aria-label="Recherche">
+            <!--<i class="fas fa-search input-prefix"></i>-->
+        </div>
+
+
+        <!-- Liens -->
+        <ul class="navbar-nav ml-auto mt-lg-0">
+
+            <!-- Dropdown -->
+            <li class="nav-item dropdown text-center px-3">
+                <a class="btn-floating btn-md cloudy-knoxville-gradient" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="black-text fas fa-search fa-lg"></i>
+                </a>
+                <div class="dropdown-menu dropdown-primary" aria-labelledby="dropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+                <p>
+                    Consultation &#9776;
+                </p>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+
+            <!-- Recherche avancée -->
+            <li class="nav-item text-center px-3">
+                <a class="btn-floating btn-md cloudy-knoxville-gradient" href="#">
+                    <i class="black-text fas fa-search fa-lg"></i>
+                </a>
+                <p>
+                    Recherche avancée
+                </p>
             </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
+
+            <!-- Aide & Contact -->
+            <li class="nav-item text-center px-3">
+                <a class="btn-floating btn-md cloudy-knoxville-gradient" href="#">
+                    <i class="black-text far fa-life-ring fa-lg"></i>
+                </a>
+                <p>
+                    Aide et contact
+                </p>
+            </li>
+
+            <!-- Connexion -->
+            <li class="nav-item text-center px-3">
+                <a class="btn-floating btn-md cloudy-knoxville-gradient" href="#">
+                    <i class="black-text fas fa-user fa-lg"></i>
+                </a>
+                <p>
+                    Connexion
+                </p>
             </li>
         </ul>
     </div>
