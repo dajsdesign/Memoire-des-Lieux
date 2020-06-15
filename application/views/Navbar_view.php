@@ -5,7 +5,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <a class="navbar-brand" href="#">
-            <img src="https://mdbootstrap.com/img/logo/mdb-transparent.png" height="30" alt="Logo Mémoire des Lieux">
+            <img src="<?php echo base_url() ?>assets/images/logo_memoire-des-lieux.png" height="50" alt="Logo Mémoire des Lieux">
         </a>
         <ul class="navbar-nav mr-auto mt-lg-0">
             <li class="nav-item active">
