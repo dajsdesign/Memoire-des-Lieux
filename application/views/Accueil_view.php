@@ -1,6 +1,7 @@
 <?php $this->load->view('Head_view'); ?>
 
-<body class="">
+<body class="w-100">
+
 <?php $this->load->view('Navbar_view'); ?>
 <!--Main Navigation-->
 
@@ -11,12 +12,12 @@
 
         <div class="container-fluid d-flex align-items-center justify-content-center h-100">
 
-            <div class="row d-flex justify-content-center text-center">
+            <div class="row justify-content-center text-center">
 
-                <div class="col-md-10">
+                <div class="col">
 
                     <!-- Heading -->
-                    <img class="w-50 p-3 center-block" src="assets/images/logo_memoire-des-lieux.png">
+                    <img class="w-50 p-3 text-center align-content-center" src="assets/images/logo_memoire-des-lieux.png">
 
                     <!-- Divider -->
                     <hr class="hr-light">
@@ -25,7 +26,7 @@
                     <h4 class="white-text my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Deleniti
                         consequuntur.</h4>
-                    <a href="#1" class="btn-scroll scrollto" title="Scroll Down"><i class="fas fa-angle-down"></i></a>
+                    <a href="" class="btn-scroll scrollto" title="Scroll Down"><i class="white-text fas fa-angle-down"></i></a>
 
                 </div>
 
