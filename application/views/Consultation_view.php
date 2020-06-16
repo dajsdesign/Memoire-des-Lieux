@@ -26,7 +26,7 @@
 
         <section id="best-features">
 
-            <h2 class="mb-5 font-weight-bold">Rennes en carte </h2>
+            <h2 class="mb-5 font-weight-bold">Rennes en cartes</h2>
 
             <div class="row d-flex justify-content mb-4">
 
