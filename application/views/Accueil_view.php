@@ -233,7 +233,7 @@
         <section>
 
             <!-- Heading -->
-            <h2 class="mb-5 font-weight-bold text-center">Contact us</h2>
+            <h2 class="mb-5 font-weight-bold text-center">Contact</h2>
 
             <!--Grid row-->
             <div class="row">
