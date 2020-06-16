@@ -77,7 +77,7 @@
                 echo '
                     <!-- Déconnexion -->
                     <li class="nav-item text-center px-3">
-                        <a class="btn-floating waves-effect btn-md cloudy-knoxville-gradient" data-toggle="modal" data-target="#modalLoginForm" href="'.$baseurl.'Login/Deconnexion">
+                        <a class="btn-floating waves-effect btn-md cloudy-knoxville-gradient" href="'.$baseurl.'Login/Deconnexion">
                             <i class="marrondylan fas fa-door-open fa-lg"></i>
                         </a>
                         <p>

@@ -54,7 +54,7 @@ class Login extends CI_Controller {
 
 	public function Deconnexion()
 	{
-		$_SESSION['ident'] = '';
+		session_destroy();
 		redirect(base_url().'Accueil');
 	}
 
