@@ -87,6 +87,7 @@
                 ';
             }
             ?>
+            <?php $this->load->view('Loginform_view'); ?>
 
             <!-- Langue -->
             <li class="nav-item dropdown text-center px-3">
