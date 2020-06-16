@@ -17,13 +17,15 @@
                 <div class="col">
 
                     <!-- Heading -->
-                    <img class="w-50 p-3 text-center align-content-center" src="assets/images/logo_memoire-des-lieux.png">
+                    <img class="w-50 p-3 text-center align-content-center"
+                         src="assets/images/logo_memoire-des-lieux.png">
 
                     <!-- Divider -->
                     <hr class="hr-light">
 
                     <!-- Description -->
-                    <a href="#1" id="1" class="btn-scroll scrollto" title="Scroll Down"><i class="white-text fas fa-angle-down"></i></a>
+                    <a href="#1" id="1" class="btn-scroll scrollto" title="Scroll Down"><i
+                                class="white-text fas fa-angle-down"></i></a>
 
                 </div>
 
@@ -132,13 +134,21 @@
 
 
                 <!-- Title -->
-                <button type="button" class="btn brown lighten-2 card-body card-body-cascade text-center white-text">S'y rendre</button>
+                <button type="button" class="btn brown lighten-2 card-body card-body-cascade text-center white-text">S'y
+                    rendre
+                </button>
 
 
             </div>
             <!-- Card -->
 
-            <p class="mt-5">Lorem ipsum Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
+            <p class="mt-5">Lorem ipsum Le Lorem Ipsum est simplement du faux texte employé dans la composition et la
+                mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les
+                années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre
+                spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la
+                bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années
+                1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment,
+                par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
 
         </section>
         <!--Section: Examples-->
@@ -229,24 +239,26 @@
                 <div class="col-lg-5 col-md-12">
                     <!-- Form contact -->
                     <form class="p-5 grey-text">
-                        <div class="md-form form-sm brown-text lighten-2"> <i class="fa fa-user prefix"></i>
+                        <div class="md-form form-sm brown-text lighten-2"><i class="fa fa-user prefix"></i>
                             <input type="text" id="form3" class="form-control form-control-sm">
                             <label for="form3">Nom</label>
                         </div>
-                        <div class="md-form form-sm brown-text lighten-2"> <i class="fa fa-envelope prefix"></i>
+                        <div class="md-form form-sm brown-text lighten-2"><i class="fa fa-envelope prefix"></i>
                             <input type="text" id="form2" class="form-control form-control-sm">
                             <label for="form2">E-mail</label>
                         </div>
-                        <div class="md-form form-sm brown-text lighten-2"> <i class="fa fa-tag prefix"></i>
+                        <div class="md-form form-sm brown-text lighten-2"><i class="fa fa-tag prefix"></i>
                             <input type="text" id="form32" class="form-control form-control-sm">
                             <label for="form34">Sujet</label>
                         </div>
-                        <div class="md-form form-sm brown-text lighten-2"> <i class="fa fa-pencil prefix"></i>
-                            <textarea type="text" id="form8" class="md-textarea form-control form-control-sm" rows="4"></textarea>
+                        <div class="md-form form-sm brown-text lighten-2"><i class="fa fa-pencil prefix"></i>
+                            <textarea type="text" id="form8" class="md-textarea form-control form-control-sm"
+                                      rows="4"></textarea>
                             <label for="form8">Votre message</label>
                         </div>
                         <div class="text-center mt-4">
-                            <button class="btn btn-primary brown lighten-2">Envoyer<i class="fa fa-paper-plane-o ml-1"></i></button>
+                            <button class="btn btn-primary brown lighten-2">Envoyer<i
+                                        class="fa fa-paper-plane-o ml-1"></i></button>
                         </div>
                     </form>
                     <!-- Form contact -->
@@ -270,7 +282,8 @@
                         <!--Grid column-->
                         <div class="col-lg-4 col-md-6 mb-3">
 
-                            <p><i class="fa fa-building fa-1x mr-2 brown-text lighten-2"></i>Lundi - Samedi, 8:00-22:00</p>
+                            <p><i class="fa fa-building fa-1x mr-2 brown-text lighten-2"></i>Lundi - Samedi, 8:00-22:00
+                            </p>
 
                         </div>
                         <!--Grid column-->
