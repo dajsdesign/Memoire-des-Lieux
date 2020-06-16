@@ -1,11 +1,11 @@
 <?php $this->load->view('Head_view'); ?>
 
-<body class="orange lighten-5">
+<body class="">
 <?php $this->load->view('Navbar_view'); ?>
 <!--Main Navigation-->
 
 <!--Mask-->
-<div id="intro" class="view">
+<div id="intro" class="view orange lighten-5">
 
     <div class="mask rgba-black-strong">
 
@@ -38,7 +38,7 @@
 </div>
 <!--/.Mask-->
 <!--Main layout-->
-<main class="mt-5">
+<main class="pt-5 orange lighten-5">
     <div class="container">
 
         <!--Section: Best Features-->
