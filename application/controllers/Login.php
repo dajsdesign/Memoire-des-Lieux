@@ -22,7 +22,7 @@ class Login extends CI_Controller {
 	public function Verif()
 	{
 		$ident = $this->input->post('identifiant');
-		$mdp = $this->input->post('password'); //256); // Pas sur
+		$mdp = $this->input->post('password');
 
 
 		$this->load->model('Login_model');
@@ -34,18 +34,17 @@ class Login extends CI_Controller {
 		if( $reponse_A ){
 			$_SESSION['ident'] = "admin";
 
-			redirect(base_url().'Gestion');
+			redirect(base_url().'Gestion/Admin');
 		}
-
 
 		elseif( $reponse_U ){
 			$_SESSION['ident'] = "user";
-			redirect(base_url().'Gestion');
+			redirect(base_url().'Accueil');
 		}
 
 		elseif( $reponse_C ){
 			$_SESSION['ident'] = "contributeur";
-			redirect(base_url().'Gestion');
+			redirect(base_url().'Gestion/Contributeur');
 		}
 
 		else{
