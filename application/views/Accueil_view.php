@@ -23,10 +23,7 @@
                     <hr class="hr-light">
 
                     <!-- Description -->
-                    <h4 class="white-text my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Deleniti
-                        consequuntur.</h4>
-                    <a href="" class="btn-scroll scrollto" title="Scroll Down"><i class="white-text fas fa-angle-down"></i></a>
+                    <a href="#1" id="1" class="btn-scroll scrollto" title="Scroll Down"><i class="white-text fas fa-angle-down"></i></a>
 
                 </div>
 
