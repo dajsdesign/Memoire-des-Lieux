@@ -39,12 +39,62 @@
                 </div>
 
             </div>
+
             <section id="examples" class="text-center">
 
-                <h2 class="mb-5 font-weight-bold">Découvrez les dernières modifications
+                <h2 class="mb-5 font-weight-bold text-center">Découvrez les dernières modifications
                 </h2>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                <p class="text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
 
+                    <div id="carousel-example-multi" class="carousel slide carousel-multi-item v-2" data-ride="carousel">
+
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-multi" data-slide-to="0" class="brown lighten-2 active"></li>
+                            <li class="brown lighten-2" data-target="#carousel-example-multi" data-slide-to="1"></li>
+                            <li class="brown lighten-2" data-target="#carousel-example-multi" data-slide-to="2"></li>
+                        </ol>
+                        <!--/.Indicators-->
+
+                        <div class="carousel-inner v-2" role="listbox">
+
+                            <div class="carousel-item active">
+                                <div class="col-12 col-md-4">
+                                    <div class="card mb-2">
+                                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img (36).jpg"
+                                             alt="Card image cap">
+                                        <div class="card-body brown lighten-2">
+                                            <h4 class="card-title font-weight-bold text-center">Name 1</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="col-12 col-md-4">
+                                    <div class="card mb-2">
+                                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img (36).jpg"
+                                             alt="Card image cap">
+                                        <div class="card-body brown lighten-2">
+                                            <h4 class="card-title font-weight-bold text-center">Name2</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="col-12 col-md-4">
+                                    <div class="card mb-2">
+                                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img (36).jpg"
+                                             alt="Card image cap">
+                                        <div class="card-body brown lighten-2">
+                                            <h4 class="card-title font-weight-bold text-center">Name3</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                 <section/>
 
                 <!-- <div class="row">
@@ -93,8 +143,6 @@
             </div>
 
         </section>
-
-        <hr class="my-5">
 
 
     </div>
