@@ -11,8 +11,7 @@
 
         <!-- Recherche -->
         <div class="container form-inline form-group w-100 md-form input-with-post-icon">
-            <input class="form-control mr-sm-2 w-100 px-3" type="text" placeholder="Recherche" aria-label="Recherche">
-            <!--<i class="fas fa-search input-prefix"></i>-->
+            <input class="form-control w-100 px-3" id="recherche" type="text" placeholder="Recherche" aria-label="Recherche">
         </div>
 
 
