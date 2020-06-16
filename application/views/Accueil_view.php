@@ -18,11 +18,14 @@
 
                     <!-- Heading -->
                     <img class="w-50 p-3 text-center align-content-center"
-                         src="assets/images/logo_memoire-des-lieux.png">
+                         src="<?php echo base_url() ?>assets/images/logo_memoire-des-lieux.png">
 
                     <!-- Divider -->
                     <hr class="hr-light">
-
+                    <!-- Description -->
+                    <h4 class="white-text my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Deleniti
+                        consequuntur.</h4>
                     <!-- Description -->
                     <a href="#1" id="1" class="btn-scroll scrollto" title="Scroll Down"><i
                                 class="white-text fas fa-angle-down"></i></a>
@@ -41,8 +44,8 @@
 <main class="pt-5 orange lighten-5">
     <div class="container">
 
-        <!--Section: Best Features-->
-        <section id="best-features" class="text-center">
+        <!--Section-->
+        <section class="text-center">
 
             <!-- Heading -->
             <h2 class="mb-5 font-weight-bold">Lorem ipsum</h2>
@@ -107,12 +110,12 @@
             <!--Grid row-->
 
         </section>
-        <!--Section: Best Features-->
+        <!--Section-->
 
         <hr class="my-5">
 
-        <!--Section: Examples-->
-        <section id="examples" class="text-center">
+        <!--Section: Carte interactive-->
+        <section class="text-center">
 
             <!-- Heading -->
             <h2 class="mb-5 font-weight-bold">Carte intéractive</h2>
@@ -123,7 +126,7 @@
 
                 <!-- Card image -->
                 <div class="view view-cascade overlay">
-                    <img class="card-img-top" src="assets/images/carte-interactive.png"
+                    <img class="card-img-top" src="<?php echo base_url() ?>assets/images/carte-interactive.png"
                          alt="Card image cap">
                     <a href="#!">
                         <div class="mask rgba-white-slight"></div>
@@ -151,12 +154,12 @@
                 par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
 
         </section>
-        <!--Section: Examples-->
+        <!--Section: Carte interactive-->
 
         <hr class="my-5">
 
-        <!--Section: Gallery-->
-        <section id="gallery">
+        <!--Section: Dernieres modif-->
+        <section>
 
             <!-- Heading -->
             <h2 class="mb-5 font-weight-bold text-center">Découvrez les dernières modifications</h2>
@@ -222,12 +225,12 @@
                 </div>
             </div>
         </section>
-        <!--Section: Gallery-->
+        <!--Section: Dernieres modif-->
 
         <hr class="my-5">
 
         <!--Section: Contact-->
-        <section id="contact">
+        <section>
 
             <!-- Heading -->
             <h2 class="mb-5 font-weight-bold text-center">Contact us</h2>
