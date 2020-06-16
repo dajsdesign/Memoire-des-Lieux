@@ -57,16 +57,38 @@
                 </p>
             </li>
 
-            <!-- Connexion -->
-            <li class="nav-item text-center px-3">
-                <a class="btn-floating waves-effect btn-md cloudy-knoxville-gradient" data-toggle="modal" data-target="#modalLoginForm" href="<?php echo base_url()?>Login">
-                    <i class="marrondylan fas fa-user fa-lg"></i>
-                </a>
-                <p>
-                    Connexion
-                </p>
-            </li>
-            <?php $this->load->view('Loginform_view'); ?>
+            <?php
+            $baseurl = base_url();
+            if (!isset($_SESSION['ident'])) {
+                echo '
+                    <!-- Connexion -->
+                    <li class="nav-item text-center px-3">
+                        <a class="btn-floating waves-effect btn-md cloudy-knoxville-gradient" data-toggle="modal" data-target="#modalLoginForm" href="'.$baseurl.'Login">
+                            <i class="marrondylan fas fa-user fa-lg"></i>
+                        </a>
+                        <p>
+                            Connexion
+                        </p>
+                    </li>
+                    ';
+                $this->load->view('Login_view');
+            }
+
+            else {
+                echo '
+                    <!-- Déconnexion -->
+                    <li class="nav-item text-center px-3">
+                        <a class="btn-floating waves-effect btn-md cloudy-knoxville-gradient" data-toggle="modal" data-target="#modalLoginForm" href="'.$baseurl.'Deconnexion">
+                            <i class="marrondylan fas fa-door-open fa-lg"></i>
+                        </a>
+                        <p>
+                            Déconnexion
+                        </p>
+                    </li>
+                ';
+                $this->load->view('Login_view');
+            }
+            ?>
 
             <!-- Langue -->
             <li class="nav-item dropdown text-center px-3">
