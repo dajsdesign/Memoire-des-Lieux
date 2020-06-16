@@ -13,6 +13,18 @@ header,
     background-size: cover;
 }
 
+#intro-cons {
+        height: 100%;
+}
+
+#intro-cons {
+    background: url("../images/plan.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .top-nav-collapse {
     background-color: white !important;
 }
