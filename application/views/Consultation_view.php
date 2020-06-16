@@ -21,10 +21,10 @@
     </div>
 
 </div>
-<main class="pt-5 orange lighten-5">
+<main class="pt-5 orange lighten-5"  style="background-color: white; margin-top: -5rem !important; z-index: 30000 !important;">
     <div class="container" style="background-color: white;">
 
-        <section id="best-features">
+        <section id="best-features" style="">
 
             <h2 class="mb-5 font-weight-bold">Rennes en cartes</h2>
 
