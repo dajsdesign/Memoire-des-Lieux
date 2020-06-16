@@ -1,5 +1,5 @@
 <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-     aria-hidden="true">
+           aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header text-center">
@@ -39,6 +39,3 @@
     </div>
 </div>
 
-<div class="text-center">
-    <a href="" class="btn btn-default btn-rounded mb-4 brown lighten-2" data-toggle="modal" data-target="#modalLoginForm">Connexion</a>
-</div>

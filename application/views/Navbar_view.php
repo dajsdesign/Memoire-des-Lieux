@@ -59,13 +59,14 @@
 
             <!-- Connexion -->
             <li class="nav-item text-center px-3">
-                <a class="btn-floating waves-effect btn-md cloudy-knoxville-gradient" href="<?php echo base_url()?>Login">
+                <a class="btn-floating waves-effect btn-md cloudy-knoxville-gradient" data-toggle="modal" data-target="#modalLoginForm" href="<?php echo base_url()?>Login">
                     <i class="marrondylan fas fa-user fa-lg"></i>
                 </a>
                 <p>
                     Connexion
                 </p>
             </li>
+            <?php $this->load->view('Loginform_view'); ?>
 
             <!-- Langue -->
             <li class="nav-item dropdown text-center px-3">
