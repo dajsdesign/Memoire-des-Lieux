@@ -71,7 +71,6 @@
                         </p>
                     </li>
                     ';
-                $this->load->view('Login_view');
             }
 
             else {
@@ -86,7 +85,6 @@
                         </p>
                     </li>
                 ';
-                $this->load->view('Login_view');
             }
             ?>
 
