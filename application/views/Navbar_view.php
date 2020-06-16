@@ -11,8 +11,7 @@
 
         <!-- Recherche -->
         <div class="container form-inline form-group w-100 md-form input-with-post-icon">
-            <input class="form-control mr-sm-2 w-100" type="text" placeholder="Recherche" aria-label="Recherche">
-            <!--<i class="fas fa-search input-prefix"></i>-->
+            <input class="form-control w-100 px-3" id="recherche" type="text" placeholder="Recherche" aria-label="Recherche">
         </div>
 
 
@@ -60,7 +59,7 @@
 
             <!-- Connexion -->
             <li class="nav-item text-center px-3">
-                <a class="btn-floating waves-effect btn-md cloudy-knoxville-gradient" href="#">
+                <a class="btn-floating waves-effect btn-md cloudy-knoxville-gradient" href="<?php echo base_url()?>Login">
                     <i class="marrondylan fas fa-user fa-lg"></i>
                 </a>
                 <p>
