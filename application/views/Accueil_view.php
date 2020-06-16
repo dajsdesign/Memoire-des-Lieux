@@ -6,53 +6,37 @@
 
 <!--Mask-->
 <div id="intro" class="view">
-
     <div class="mask rgba-black-strong">
-
         <div class="container-fluid d-flex align-items-center justify-content-center h-100">
-
             <div class="row d-flex justify-content-center text-center">
-
                 <div class="col-md-10">
-
                     <!-- Heading -->
                     <img class="w-50 p-3 center-block" src="assets/images/logo_memoire-des-lieux.png">
-
                     <!-- Divider -->
                     <hr class="hr-light">
-
                     <!-- Description -->
                     <h4 class="white-text my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Deleniti
                         consequuntur.</h4>
                     <a href="#1" class="btn-scroll scrollto" title="Scroll Down"><i class="fas fa-angle-down"></i></a>
-
                 </div>
-
             </div>
-
         </div>
-
     </div>
-
 </div>
 <!--/.Mask-->
+
 <!--Main layout-->
 <main class="mt-5">
     <div class="container">
-
         <!--Section: Best Features-->
         <section id="best-features" class="text-center">
-
             <!-- Heading -->
             <h2 class="mb-5 font-weight-bold">Lorem ipsum</h2>
-
             <!--Grid row-->
             <div class="row d-flex justify-content-center mb-4">
-
                 <!--Grid column-->
                 <div class="col-md-8">
-
                     <!-- Description -->
                     <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi voluptate
                         hic
@@ -60,16 +44,12 @@
                         facere esse molestiae ipsa labore porro minima quam quaerat rem, natus repudiandae debitis
                         est
                         sit pariatur.</p>
-
                 </div>
                 <!--Grid column-->
-
             </div>
             <!--Grid row-->
-
             <!--Grid row-->
             <div class="row">
-
                 <!--Grid column-->
                 <div class="col-md-4 mb-5">
                     <i class="fa fa-lightbulb fa-4x brown-text lighten-2"></i>
@@ -80,7 +60,6 @@
                         assumenda deleniti hic.</p>
                 </div>
                 <!--Grid column-->
-
                 <!--Grid column-->
                 <div class="col-md-4 mb-1">
                     <i class="fa fa-globe fa-4x brown-text lighten-2"></i>
