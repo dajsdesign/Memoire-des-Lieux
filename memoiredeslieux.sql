@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 16, 2020 at 02:59 PM
+-- Generation Time: Jun 16, 2020 at 05:02 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.2.27
 
@@ -154,6 +154,28 @@ CREATE TABLE `site` (
 INSERT INTO `site` (`site_titre`, `site_description`) VALUES
 ('RENNES, CAPITALE BRETONNE – DE 1455 À LA RÉVOLUTION', 'Ce site met à disposition des chercheurs,\r\nétudiants, professeurs, historiens et en même temps du grand public un outil collaboratif qui permettra l\'indexation, la transcription et la publication de différentes sources historiques disponibles dans les fonds des archives publiques. Le projet a pour objectif de faciliter la recherche archéologique et historique sur les centres urbains de l\'ouest de la France (il sera amené ultérieurement à couvrir la totalité du territoire national), à l\'époque médiévale et à l\'époque moderne (du XVème au début du XIXème siècle).\r\n\r\nLes informations précieuses fournies par les réformations dont j’ai commencé l’indexation, seront complétées par l’étude des plans de la ville disponibles pour les 17ème et 18ème siècles, les registres de la communauté des marchands merciers, les registres paroissiaux (ou du moins leurs relevés), et les tout premiers rôles de la capitation. D’autres documents, comme les trop rares livres de raisons et certaines archives des juridictions viendront s’ajouter à la liste au fil des recherches.');
 
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `users`
+--
+
+CREATE TABLE `users` (
+  `user_id` int(10) NOT NULL,
+  `user_identifiant` varchar(100) NOT NULL,
+  `user_pass` varchar(500) NOT NULL,
+  `user_role` varchar(50) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`user_id`, `user_identifiant`, `user_pass`, `user_role`) VALUES
+(1, 'test_user', '36d169a073236da5d569e9b2bdf4071be7b3f36c7c814c1675252be2dbf0d083', 'user'),
+(2, 'test_admin', '9759c2c77b75d56d1bdbfec5e83a92e8f8b273d365f3ce406b0704642505e3db', 'admin'),
+(3, 'test_contributor', '0ae3166126d78ece468fcdedaeba90f1f82179959dceaa5c4319ec4b41d56a21', 'contributor');
+
 --
 -- Indexes for dumped tables
 --
@@ -192,6 +214,12 @@ ALTER TABLE `propriétaires`
   ADD PRIMARY KEY (`proprio_id`);
 
 --
+-- Indexes for table `users`
+--
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`user_id`);
+
+--
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -224,6 +252,12 @@ ALTER TABLE `parcelles`
 --
 ALTER TABLE `propriétaires`
   MODIFY `proprio_id` int(10) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `users`
+--
+ALTER TABLE `users`
+  MODIFY `user_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- Constraints for dumped tables
