@@ -1,143 +1,128 @@
 <!-- Footer -->
-<footer class="page-footer font-small stylish-color-dark pt-4">
+<footer class="page-footer font-small elegant-color-dark pt-4">
 
-  <!-- Footer Links -->
-  <div class="container text-center text-md-left">
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
 
-    <!-- Grid row -->
-    <div class="row">
+        <!-- Grid row -->
+        <div class="row">
 
-      <!-- Grid column -->
-      <div class="col-md-4 mx-auto">
+            <!-- Grid column -->
+            <div class="col-md-4 mx-auto">
 
-        <!-- Content -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">À propos</h5>
-        <p>Blablabla.</p>
+                <!-- Content -->
+                <h4 class="font-weight-bold text-uppercase mt-3 mb-4">À propos</h4>
+                <hr class="brown mb-4 mt-0 d-inline-block mx-auto" style="width: 100px;">
+                <p>Blablabla.</p>
 
-      </div>
-      <!-- Grid column -->
+            </div>
+            <!-- Grid column -->
 
-      <hr class="clearfix w-100 d-md-none">
+            <hr class="clearfix w-100 d-md-none">
 
-      <!-- Grid column -->
-      <div class="col-md-2 mx-auto">
+            <!-- Grid column -->
+            <div class="col-md-2 mx-auto">
 
-        <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+                <!-- Links -->
+                <h4 class="font-weight-bold text-uppercase mt-3 mb-4">Navigation</h4>
+                <hr class="brown mb-4 mt-0 d-inline-block mx-auto" style="width: 100px;">
 
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!">Link 1</a>
-          </li>
-          <li>
-            <a href="#!">Link 2</a>
-          </li>
-          <li>
-            <a href="#!">Link 3</a>
-          </li>
-          <li>
-            <a href="#!">Link 4</a>
-          </li>
-        </ul>
+                <ul class="list-unstyled">
+                    <li>
+                        <i class="marrondylan fas fa-chevron-right"></i>
+                        <a href="#!">Quartiers</a>
+                    </li>
+                    <li>
+                        <i class="marrondylan fas fa-chevron-right"></i>
+                        <a href="#!">Rues</a>
+                    </li>
+                    <li>
+                        <i class="marrondylan fas fa-chevron-right"></i>
+                        <a href="#!">Parcelles</a>
+                    </li>
+                    <li>
+                        <i class="marrondylan fas fa-chevron-right"></i>
+                        <a href="#!">Propriétaires</a>
+                    </li>
+                    <li>
+                        <i class="marrondylan fas fa-chevron-right"></i>
+                        <a href="#!">Contact</a>
+                    </li>
+                </ul>
 
-      </div>
-      <!-- Grid column -->
+            </div>
+            <!-- Grid column -->
 
-      <hr class="clearfix w-100 d-md-none">
+            <hr class="clearfix w-100 d-md-none">
 
-      <!-- Grid column -->
-      <div class="col-md-2 mx-auto">
+            <!-- Grid column -->
+            <div class="col-md-2 mx-auto">
 
-        <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+                <!-- Links -->
+                <h4 class="font-weight-bold text-uppercase mt-3 mb-4">Contact</h4>
+                <hr class="brown mb-4 mt-0 d-inline-block mx-auto" style="width: 100px;">
 
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!">Link 1</a>
-          </li>
-          <li>
-            <a href="#!">Link 2</a>
-          </li>
-          <li>
-            <a href="#!">Link 3</a>
-          </li>
-          <li>
-            <a href="#!">Link 4</a>
-          </li>
-        </ul>
+                <ul class="list-unstyled align-items-start align-content-start">
+                    <li>
+                        <i class="marrondylan fas fa-home fa-lg"></i>
+                        <a href="#!">66 South Street, Window 6 Wonderland</a>
+                    </li>
+                    <li>
+                        <i class="marrondylan fas fa-phone fa-lg"></i>
+                        <a href="#!">+33 1 23 45 67 89</a>
+                    </li>
+                    <li>
+                        <i class="marrondylan fas fa-envelope-open-text fa-lg"></i>
+                        <a href="#!">hello@memoiredeslieux.fr</a>
+                    </li>
+                </ul>
 
-      </div>
-      <!-- Grid column -->
+            </div>
+            <!-- Grid column -->
 
-      <hr class="clearfix w-100 d-md-none">
-
-      <!-- Grid column -->
-      <div class="col-md-2 mx-auto">
-
-        <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!">Link 1</a>
-          </li>
-          <li>
-            <a href="#!">Link 2</a>
-          </li>
-          <li>
-            <a href="#!">Link 3</a>
-          </li>
-          <li>
-            <a href="#!">Link 4</a>
-          </li>
-        </ul>
-
-      </div>
-      <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
 
     </div>
-    <!-- Grid row -->
+    <!-- Footer Links -->
 
-  </div>
-  <!-- Footer Links -->
+    <hr>
 
-  <hr>
+    <!-- Social buttons -->
+    <ul class="list-unstyled list-inline text-center">
+        <li class="list-inline-item">
+            <a class="btn-floating mx-1">
+                <i class="fab fa-facebook-f"> </i>
+            </a>
+        </li>
+        <li class="list-inline-item">
+            <a class="btn-floating mx-1">
+                <i class="fab fa-twitter"> </i>
+            </a>
+        </li>
+        <li class="list-inline-item">
+            <a class="btn-floating mx-1">
+                <i class="fab fa-instagram"> </i>
+            </a>
+        </li>
+        <li class="list-inline-item">
+            <a class="btn-floating mx-1">
+                <i class="fab fa-pinterest"> </i>
+            </a>
+        </li>
+        <li class="list-inline-item">
+            <a class="btn-floating mx-1">
+                <i class="fab fa-linkedin-in"> </i>
+            </a>
+        </li>
+    </ul>
+    <!-- Social buttons -->
 
-  <!-- Social buttons -->
-  <ul class="list-unstyled list-inline text-center">
-    <li class="list-inline-item">
-      <a class="btn-floating mx-1">
-        <i class="fab fa-facebook-f"> </i>
-      </a>
-    </li>
-    <li class="list-inline-item">
-      <a class="btn-floating mx-1">
-        <i class="fab fa-twitter"> </i>
-      </a>
-    </li>
-      <li class="list-inline-item">
-      <a class="btn-floating mx-1">
-        <i class="fab fa-instagram"> </i>
-      </a>
-    </li>
-    <li class="list-inline-item">
-      <a class="btn-floating mx-1">
-        <i class="fab fa-pinterest"> </i>
-      </a>
-    </li>
-    <li class="list-inline-item">
-      <a class="btn-floating mx-1">
-        <i class="fab fa-linkedin-in"> </i>
-      </a>
-    </li>
-  </ul>
-  <!-- Social buttons -->
-
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© <?php echo date("Y"); ?> Copyright:
-    <a href="<?php echo base_url(); ?>"> Mémoire des Lieux</a>
-  </div>
-  <!-- Copyright -->
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© <?php echo date("Y"); ?> Copyright:
+        <a href="<?php echo base_url(); ?>"> Mémoire des Lieux</a>
+    </div>
+    <!-- Copyright -->
 
 </footer>
 <!-- Footer -->
