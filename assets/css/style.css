@@ -35,6 +35,10 @@ html, body {
     font-family: "Caviar Dreams" !important;
 }
 
+.modal-backdrop {
+    z-index: 500 !important;
+}
+
 html,
 body,
 header,

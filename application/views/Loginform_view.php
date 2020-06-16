@@ -1,6 +1,6 @@
-<div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-           aria-hidden="true">
-    <div class="modal-dialog" role="document">
+<div class="modal fade zindex-modal" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header text-center">
                 <h4 class="modal-title w-100 font-weight-bold brown-text lighten-2">Connexion</h4>
@@ -21,7 +21,7 @@
                     <label data-error="wrong" data-success="right" for="defaultForm-pass">Mot de passe</label>
                 </div>
 
-                <div class="form-group mt-4">
+                <!--<div class="form-group mt-4">
                     <input class="form-check-input" type="checkbox" id="checkbox624">
                     <label for="checkbox624" class="grey-text form-check-label">Contributeur</label>
                 </div>
@@ -29,7 +29,7 @@
                 <div class="form-group mt-4">
                     <input class="form-check-input" type="checkbox" id="checkbox625">
                     <label for="checkbox625" class="grey-text form-check-label">Administrateur</label>
-                </div>
+                </div>-->
 
             </div>
             <div class="modal-footer d-flex justify-content-center">
