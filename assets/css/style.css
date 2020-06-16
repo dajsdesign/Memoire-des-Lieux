@@ -30,3 +30,13 @@ header,
 .top-nav-collapse {
     background-color: white !important;
 }
+
+.form-control:focus {
+  border-color: #5a3d31 !important;
+  box-shadow: 0 0 5px #5a3d31 !important;
+}
+
+.marrondylan {
+    color: #5a3d31 !important;
+
+}
