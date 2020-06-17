@@ -1,7 +1,7 @@
 <?php $this->load->view('Head_view'); ?>
 
 <body class="w-100">
-
+<?php $this->load->view('Loader_view');?>
 <?php $this->load->view('Navbar_view'); ?>
 
 <div class="container py-5">
