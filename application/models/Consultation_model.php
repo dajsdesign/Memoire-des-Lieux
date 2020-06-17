@@ -27,8 +27,9 @@ class Consultation_model extends CI_Model
     }
 
 
-    public function infoilots($id)
+    public function infoilots()
     {
+        $id = $this->input->post('ilots_value');
         $query = $this->db->query("SELECT * FROM `ilots` WHERE `ilot_id` = $id");
         return $query->result();
     }
