@@ -149,17 +149,25 @@
             <div class="row">
                 <div class="col">
                     <div class="text-center marrondylan">
-                        <select class="mdb-select marrondylan md-form dropdown-dark">
-                            <option value="" disabled selected>Sélectionnez un ilôt</option>
-                            <?php foreach ($ilots as $ligne) { ?>
-                                <option class="" value="<?php echo $ligne->ilot_id ?>"><?php echo $ligne->ilot_id ?>
-                                    &dash; <?php echo $ligne->ilot_titre ?></option>
-                            <?php } ?>
-                        </select>
+                        <form action="Consultation" method="POST">
+                            <select name="ilots" class="mdb-select marrondylan md-form dropdown-dark">
+                                <option value="" disabled selected>Sélectionnez un ilôt</option>
+                                <?php foreach ($ilots as $ligne) { ?>
+                                    <option class="" value="<?php echo $ligne->ilot_id ?>"><?php echo $ligne->ilot_id ?>
+                                        &dash; <?php echo $ligne->ilot_titre ?></option>
+                                <?php } ?>
+                            </select>
+                            <button type="submit" >Envoyer</button>
+                        </form>
                     </div>
                 </div>
             </div>
-
+        <div>
+                <?php
+                if (isset($_POST['ilots'])) {
+                    echo '';
+                } ?>
+        </div>
     </div>
 </main>
 
