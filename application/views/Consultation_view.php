@@ -144,14 +144,15 @@
 
         </section>
 <section>
+
     <div class="select-style">
         <select>
-            <option value="volvo">Quartier1</option>
-            <option value="saab">Quartier2</option>
-            <option value="mercedes">Quartier3</option>
-            <option value="audi">Quartier4</option>
+            <?php foreach ($toutes as $ligne ) {    ?>
+            <option value="<?php echo $ligne->ilot_id ?>"><?php echo $ligne->ilot_id ?></option>
+            <?php } ?>
         </select>
     </div>
+
 </section>
 
     </div>
