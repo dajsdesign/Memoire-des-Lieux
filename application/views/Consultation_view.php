@@ -164,9 +164,9 @@
             </div>
         <div>
             <?php
-
             if (isset($_POST['ilots_value'])) {
-                $reponse = $bdd->query('SELECT ilot_titre FROM ilots WHERE ilot_id=$_POST['ilots_value']');
+                $ilot_value = $this->input->post('ilots_value');
+                $reponse = $this->db->query("SELECT ilot_titre FROM ilots WHERE ilot_id='.$ilot_value.'");
 		 	echo $reponse;
 		 } ?>
         </div>
