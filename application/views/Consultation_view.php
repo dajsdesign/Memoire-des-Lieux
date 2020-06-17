@@ -23,7 +23,7 @@
 <main class="pt-5 orange lighten-5" style="background-color: white;">
     <div class="container w-responsive" style="background-color: white;">
 
-        <section id="best-features" style="">
+        <div id="best-features" style="">
 
             <h2 class="mb-5 font-weight-bold">Rennes en cartes</h2>
 
@@ -149,7 +149,7 @@
             <div class="row">
                 <div class="col">
                     <div class="text-center marrondylan">
-                        <form action="Consultation" method="POST">
+                        <form action="affichageIlots/" method="POST">
                             <select name="ilots_value" class="mdb-select marrondylan md-form dropdown-dark">
                                 <option value="" disabled selected>Sélectionnez un ilôt</option>
                                 <?php foreach ($ilots as $ligne) { ?>
@@ -162,12 +162,7 @@
                     </div>
                 </div>
             </div>
-            <div>
-                <?php
-                if (isset($_POST['ilots_value'])) {
-
-                } ?>
-            </div>
+        </div>
     </div>
 </main>
 
