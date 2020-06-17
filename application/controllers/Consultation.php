@@ -14,11 +14,10 @@ class Consultation extends CI_Controller {
 		$this->load->view('Consultation_view', $data);
 	}
 
-	public function affichageIlots($id)
+	public function affichageIlots($id=1)
     {
         $this->load->model('Consultation_model');
-        $data['ilot'] = $this->Consultation_model->infoilots();
-        $this->load->view('Consultation_view');
+        $data['ilot'] = $this->Consultation_model->infoilots($id);
         $this->load->view('InfoIlots_view', $data);
     }
 }
