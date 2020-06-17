@@ -15,51 +15,23 @@
                        aria-label="Search">
                 <i class="fas fa-search brown-text lighten-2" aria-hidden="true"></i>
             </form>
-            <div class="brown-text lighten-2 text-center">
-                <!-- Default inline 1-->
-                <div class="custom-control custom-checkbox custom-control-inline">
-                    <input type="checkbox" class="custom-control-input" id="defaultInline1">
-                    <label class="custom-control-label" for="defaultInline1">1</label>
-                </div>
-
-                <!-- Default inline 2-->
-                <div class="custom-control custom-checkbox custom-control-inline">
-                    <input type="checkbox" class="custom-control-input" id="defaultInline2">
-                    <label class="custom-control-label" for="defaultInline2">2</label>
-                </div>
-
-                <!-- Default inline 3-->
-                <div class="custom-control custom-checkbox custom-control-inline">
-                    <input type="checkbox" class="custom-control-input" id="defaultInline3">
-                    <label class="custom-control-label" for="defaultInline3">3</label>
-                </div>
                 <hr>
-                <div class="p-2">
+                <div class="p-4 m-4">
                     <select class="mdb-select md-form" multiple>
-                        <option value="" disabled selected>Choose your country</option>
-                        <option value="1">USA</option>
-                        <option value="2">Germany</option>
-                        <option value="3">France</option>
-                        <option value="4">Poland</option>
-                        <option value="5">Japan</option>
+                        <option value="" Date de modification</option>
+                        <option value="1">Dernières heures</option>
+                        <option value="2">Aujourd'hui</option>
+                        <option value="3">Cette semaine</option>
+                        <option value="4">Ce mois</option>
+                        <option value="5">Cette année</option>
                     </select>
                     <button class="btn-save btn btn-primary btn-sm">Save</button>
                     <select class="mdb-select md-form" multiple>
-                        <option value="" disabled selected>Choose your country</option>
-                        <option value="1">USA</option>
-                        <option value="2">Germany</option>
-                        <option value="3">France</option>
-                        <option value="4">Poland</option>
-                        <option value="5">Japan</option>
-                    </select>
-                    <button class="btn-save btn btn-primary btn-sm">Save</button>
-                    <select class="mdb-select md-form" multiple>
-                        <option value="" disabled selected>Choose your country</option>
-                        <option value="1">USA</option>
-                        <option value="2">Germany</option>
-                        <option value="3">France</option>
-                        <option value="4">Poland</option>
-                        <option value="5">Japan</option>
+                        <option value="" Type</option>
+                        <option value="1">Quartiers</option>
+                        <option value="2">Rues</option>
+                        <option value="3">Parcelles</option>
+                        <option value="4">Propriétaires</option>
                     </select>
                     <button class="btn-save btn btn-primary btn-sm">Save</button>
                 </div>
