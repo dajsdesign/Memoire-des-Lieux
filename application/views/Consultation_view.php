@@ -120,7 +120,7 @@
             <div class="row">
                 <div class="col">
                     <div class="text-center marrondylan">
-                        <form action="affichageIlots/<?php $ilots_value ?>" method="POST">
+                        <form action="<?php echo base_url() ?>Consultation/affichageIlots/<?php $ilots_value ?>" method="POST">
                             <select name="ilots_value" class="mdb-select marrondylan md-form dropdown-dark">
                                 <option value="" disabled selected>Sélectionnez un ilôt</option>
                                 <?php foreach ($ilots as $ligne) { ?>

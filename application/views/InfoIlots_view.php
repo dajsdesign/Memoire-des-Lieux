@@ -5,7 +5,7 @@
 <?php $this->load->view('Navbar_view'); ?>
 
 <main class="pt-5 orange lighten-5" style="background-color: white;">
-    <div class="container w-responsive">
+    <div class="container w-responsive mb-3">
         <div class="row">
             <div class="col">
                 <?php foreach ($ilot as $ligne) { ?>
