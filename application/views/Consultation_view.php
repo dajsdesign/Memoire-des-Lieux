@@ -22,7 +22,7 @@
 
 </div>
 <main class="pt-5 orange lighten-5"  style="background-color: white;">
-    <div class="container" style="background-color: white;">
+    <div class="container w-responsive" style="background-color: white;">
 
         <section id="best-features" style="">
 
@@ -46,55 +46,55 @@
                 </h2>
                 <p class="text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
 
-                    <div id="carousel-example-multi" class="carousel slide carousel-multi-item v-2" data-ride="carousel">
+                <div id="carousel-example-multi" class="carousel slide carousel-multi-item v-2" data-ride="carousel">
 
-                        <ol class="carousel-indicators">
-                            <li data-target="#carousel-example-multi" data-slide-to="0" class="brown lighten-2 active"></li>
-                            <li class="brown lighten-2" data-target="#carousel-example-multi" data-slide-to="1"></li>
-                            <li class="brown lighten-2" data-target="#carousel-example-multi" data-slide-to="2"></li>
-                        </ol>
-                        <!--/.Indicators-->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-multi" data-slide-to="0" class="brown lighten-2 active"></li>
+                        <li class="brown lighten-2" data-target="#carousel-example-multi" data-slide-to="1"></li>
+                        <li class="brown lighten-2" data-target="#carousel-example-multi" data-slide-to="2"></li>
+                    </ol>
+                    <!--/.Indicators-->
 
-                        <div class="carousel-inner v-2" role="listbox">
+                    <div class="carousel-inner v-2" role="listbox">
 
-                            <div class="carousel-item active">
-                                <div class="col-12 col-md-4">
-                                    <div class="card mb-2">
-                                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img (36).jpg"
-                                             alt="Card image cap">
-                                        <div class="card-body brown lighten-2">
-                                            <h4 class="card-title font-weight-bold text-center">Name 1</h4>
-                                        </div>
+                        <div class="carousel-item active">
+                            <div class="col-12 col-md-4">
+                                <div class="card mb-2">
+                                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img (36).jpg"
+                                         alt="Card image cap">
+                                    <div class="card-body brown lighten-2">
+                                        <h4 class="card-title font-weight-bold text-center">Name 1</h4>
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="carousel-item">
-                                <div class="col-12 col-md-4">
-                                    <div class="card mb-2">
-                                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img (36).jpg"
-                                             alt="Card image cap">
-                                        <div class="card-body brown lighten-2">
-                                            <h4 class="card-title font-weight-bold text-center">Name2</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="carousel-item">
-                                <div class="col-12 col-md-4">
-                                    <div class="card mb-2">
-                                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img (36).jpg"
-                                             alt="Card image cap">
-                                        <div class="card-body brown lighten-2">
-                                            <h4 class="card-title font-weight-bold text-center">Name3</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
                         </div>
+
+                        <div class="carousel-item">
+                            <div class="col-12 col-md-4">
+                                <div class="card mb-2">
+                                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img (36).jpg"
+                                         alt="Card image cap">
+                                    <div class="card-body brown lighten-2">
+                                        <h4 class="card-title font-weight-bold text-center">Name2</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="col-12 col-md-4">
+                                <div class="card mb-2">
+                                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img (36).jpg"
+                                         alt="Card image cap">
+                                    <div class="card-body brown lighten-2">
+                                        <h4 class="card-title font-weight-bold text-center">Name3</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
+                </div>
                 <section/>
 
                 <!-- <div class="row">
@@ -126,34 +126,34 @@
 
             </div> -->
 
-        </section>
+            </section>
 
-        <section id="examples" class="text-center">
+            <div class="row">
+                <div class="col">
+                    <div class="card card-cascade wider reverse text-center">
 
-            <div class="card card-cascade wider reverse">
-
-                <div >
-                    <img class="card-img-top" style="width: 70%" src="assets/images/carte-interactive.png"
-                         alt="Card image cap">
-                    <a href="#!">
-                        <div class="mask rgba-white-slight"></div>
-                    </a>
+                        <div >
+                            <img class="card-img-top" style="width: 70%" src="assets/images/carte-interactive.png"
+                                 alt="Card image cap">
+                            <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-
             </div>
-
-        </section>
-<section>
-
-    <div class="select-style">
-        <select>
-            <?php foreach ($ilots as $ligne ) {    ?>
-            <option value="<?php echo $ligne->ilot_id ?>"><?php echo $ligne->ilot_id ?> &dash; <?php echo $ligne->ilot_titre ?></option>
-            <?php } ?>
-        </select>
-    </div>
-
-</section>
+            <div class="row">
+                <div class="col">
+                    <div class="text-center marrondylan">
+                    <select class="mdb-select marrondylan md-form dropdown-dark">
+                        <option value="" disabled selected>Sélectionnez un ilôt</option>
+                        <?php foreach ($ilots as $ligne ) {    ?>
+                            <option class="" value="<?php echo $ligne->ilot_id ?>"><?php echo $ligne->ilot_id ?> &dash; <?php echo $ligne->ilot_titre ?></option>
+                        <?php } ?>
+                    </select>
+                </div>
+                </div>
+            </div>
 
     </div>
 </main>
