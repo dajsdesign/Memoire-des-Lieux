@@ -184,7 +184,8 @@
         }
     });
 </script>
-<script>// Select all links with hashes
+<script>
+    // Select all links with hashes
     $('a[href*="#"]')
         // Remove links that don't actually link to anything
         .not('[href="#"]')
@@ -220,4 +221,10 @@
                 }
             }
         });
+</script>
+<script>
+    // Material Select Initialization
+    $(document).ready(function() {
+        $('.mdb-select').materialSelect();
+    });
 </script>
