@@ -150,7 +150,7 @@
                 <div class="col">
                     <div class="text-center marrondylan">
                         <form action="Consultation" method="POST">
-                            <select name="ilots" class="mdb-select marrondylan md-form dropdown-dark">
+                            <select name="ilots_value" class="mdb-select marrondylan md-form dropdown-dark">
                                 <option value="" disabled selected>Sélectionnez un ilôt</option>
                                 <?php foreach ($ilots as $ligne) { ?>
                                     <option class="" value="<?php echo $ligne->ilot_id ?>"><?php echo $ligne->ilot_id ?>
@@ -163,10 +163,12 @@
                 </div>
             </div>
         <div>
-                <?php
-                if (isset($_POST['ilots'])) {
-                    echo '';
-                } ?>
+            <?php
+
+            if (isset($_POST['ilots_value'])) {
+                $reponse = $bdd->query('SELECT ilot_titre FROM ilots WHERE ilot_id=$_POST['ilots_value']');
+		 	echo $reponse;
+		 } ?>
         </div>
     </div>
 </main>
