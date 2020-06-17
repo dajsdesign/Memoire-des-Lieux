@@ -153,7 +153,7 @@
                         <hr>
 
                         <!-- Site web -->
-                        <a href="https://www.inrap.fr/" target="_blank" class="px-2 black-text"><i
+                        <a href="" target="_blank" class="px-2 black-text"><i
                                     class="fas fa-link"> </i></a>
 
                     </div>
