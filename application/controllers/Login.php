@@ -18,7 +18,7 @@ class Login extends CI_Controller {
 		}
 		else
 		{
-			redirect(base_url().'Gestion'); // La page à laquelle les utilisateurs vont accéder
+			redirect(base_url()); // La page à laquelle les utilisateurs vont accéder
 		}
 	}
 
@@ -46,7 +46,7 @@ class Login extends CI_Controller {
 		}
 
 		elseif( $reponse_C ){
-			$_SESSION['ident'] = "contributeur";
+			$_SESSION['ident'] = "contributor";
 			redirect(base_url().'Gestion/Contributeur');
 		}
 
