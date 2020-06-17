@@ -25,4 +25,9 @@ class Login_model extends CI_Model{
 		return $query->num_rows();
 	}
 
+	public function changementMdp($ancien, $nouveau)
+    {
+        $query = $this->db->query("UPDATE user_pass WHERE user_identifiant = '$c' AND user_pass = SHA2('$ancien', 256) SET user_pass = SHA2('$nouveau', 256)");
+    }
+
 }
