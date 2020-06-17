@@ -37,17 +37,17 @@ class Login extends CI_Controller {
 		if( $reponse_A ){
 			$_SESSION['ident'] = "admin";
 
-			redirect(base_url().'Gestion/Admin');
+			redirect(base_url().'Gestion/'.$_SESSION['ident']);
 		}
 
 		elseif( $reponse_U ){
 			$_SESSION['ident'] = "user";
-			redirect(base_url().'Accueil');
+			redirect(base_url().'Gestion/'.$_SESSION['ident']);
 		}
 
 		elseif( $reponse_C ){
 			$_SESSION['ident'] = "contributor";
-			redirect(base_url().'Gestion/Contributeur');
+			redirect(base_url().'Gestion/'.$_SESSION['ident']);
 		}
 
 		else{
