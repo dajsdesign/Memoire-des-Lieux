@@ -13,8 +13,9 @@
                 <!-- Content -->
                 <h4 class="font-weight-bold text-uppercase mt-3 mb-4">À propos</h4>
                 <hr class="brown mb-4 mt-0 d-inline-block mx-auto" style="width: 100px;">
-                <p>Blablabla.</p>
-
+                <p>Ce site met à disposition des chercheurs, étudiants, professeurs, historiens et en même temps du grand public un outil collaboratif qui permettra l'indexation, la transcription et la publication de différentes sources historiques disponibles dans les fonds des archives publiques.</p>
+                <i class="marrondylan fas fa-chevron-right"></i>
+                <a class="" href="<?php echo base_url() ?>Membres">Nos collaborateurs</a>
             </div>
             <!-- Grid column -->
 

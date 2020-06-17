@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : mer. 17 juin 2020 à 14:22
+-- Généré le : mer. 17 juin 2020 à 16:08
 -- Version du serveur :  10.4.11-MariaDB
 -- Version de PHP : 7.4.6
 
@@ -99,6 +99,54 @@ CREATE TABLE `lieux` (
   `ilots_ilot_id` int(10) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Déchargement des données de la table `lieux`
+--
+
+INSERT INTO `lieux` (`lieu_id`, `ilot_parcelle_id`, `lieu_titre`, `lieu_soustitre`, `lieu_description`, `lieu_image1`, `lieu_image2`, `lieu_legende`, `ilots_ilot_id`) VALUES
+(1, NULL, 'Rue Saint-Michel-en-Ville (ouest)\r\n', 'Rue Sainct Michel en Ville vers occidant commançant a la porte Sainct Michel jusques au coing de la rue de la Cordonnerie\r\n', '', 'ilot_1_lieu_1_titre\r\n', 'ilot_1_lieu_1_ill_1\r\n', NULL, 1),
+(2, NULL, 'Rue de la Cordonnerie (nord)\r\n', 'Rue de la Cordonnerie vers septentrion depuis le coing de la rue Saint Michel jusques à la rue et porte Mordelaize\r\n', NULL, 'ilot_1_lieu_2_titre\r\n', 'ilot_1_lieu_2_ill_1\r\n', NULL, 1),
+(3, NULL, 'Rue Mordelaise (est)\r\n', 'Fin de la rue de la Cordonnerie et commencement de la rue Mordelaize du costé d\'orient\r\n', NULL, 'ilot_1_lieu_3_titre\r\n', 'ilot_1_lieu_3_ill_1\r\n', NULL, 1),
+(4, NULL, 'Rue Mordelaise (ouest) et Place de la Monnaie\r\n', 'Rue Mordelaize vers occident depuis la porte Mordelaize jusques à l\'hostel de ville et place de la Monnoye inclusivement\r\n', NULL, 'ilot_1_lieu_4_titre\r\n', 'ilot_1_lieu_4_ill_1\r\n', NULL, 1),
+(5, NULL, 'Rue de la Cordonnerie (sud)\r\n', 'Rue de la Cordonnerie vers midy depuis la halle de la Nonnerie jusques au grand bout de Cohue \r\n', NULL, 'ilot_2_lieu_1_titre\r\n', 'ilot_2_lieu_1_ill_1\r\n', NULL, 2),
+(6, NULL, 'Grand Bout de Cohue (ouest)\r\n', 'Grand Bout de Cohue vers occidant depuis le coing de la Cordonnerie jusques à l’eglise de Saint Sauveur \r\n', NULL, 'ilot_2_lieu_2_titre\r\n', 'ilot_2_lieu_2_ill_1\r\n', NULL, 2),
+(8, NULL, 'Rue Saint Sauveur (nord)\r\n', 'Rue Saint Sauveur vers septantrion depuis l\'eglise Saint Sauveur jusques a la rue Saint Guillaume\r\n', NULL, 'ilot_2_lieu_3_titre\r\n', 'ilot_2_lieu_3_ill_1\r\n', NULL, 2),
+(9, NULL, 'Rue Saint-Guillaume (est)\r\n', 'Rue Saint Guillaume vers oriant depuis la rue Saint Sauveur jusques à la halle de la Nonnerie\r\n', NULL, 'ilot_2_lieu_4_titre\r\n', 'ilot_2_lieu_4_ill_1\r\n', NULL, 2),
+(10, NULL, 'Grande Cour de Rennes – Présidial (1ère partie)\r\n', 'Cour de Rennes vers septentrion depuis la porte Saint Michel jusques à la porte de la prinson\r\n', NULL, 'ilot_3_lieu_1_titre\r\n', 'ilot_3_lieu_1_ill_1\r\n', NULL, 3),
+(11, NULL, 'Salle Basse du Présidial\r\n', 'Salle basse sous l\'auditoire du presidial de Rennes a commencer du costé vers septentrion et finir vers midy\r\n', NULL, 'ilot_3_lieu_2_titre\r\n', 'ilot_3_lieu_2_ill_1\r\n', NULL, 3),
+(12, NULL, 'Grande Cour de Rennes – Présidial (2ème partie)\r\n', 'Parquet de la Cour de Rennes vers midy depuis la Porte de la dite salle basse jusques à la rue Saint Michel\r\n', NULL, 'ilot_3_lieu_3_titre\r\n', 'ilot_3_lieu_3_ill_1\r\n', NULL, 3),
+(13, NULL, 'Rue Saint Michel (est)\r\n', 'Rue Saint Michel vers oriant jusques au coing de la rue Dupuet\r\n', NULL, 'ilot_3_lieu_4_titre\r\n', 'ilot_3_lieu_4_ill_1\r\n', NULL, 3),
+(14, NULL, 'Rue Dupuet (nord, derrière les Halles)\r\n', 'Rue Dupuet desriere les halles depuis la rue Saint Michel jusques a lautre bout vis à vis la Chapelle Saint-James\r\n', NULL, 'ilot_3_lieu_5_titre\r\n', 'ilot_3_lieu_5_ill_1\r\n', NULL, 3),
+(15, NULL, 'Champ Jacquet (ouest)\r\n', 'Bas du Champ Jacquet vers occidant vis à vis la Chapelle Saint James \r\n', NULL, 'ilot_3_lieu_6_titre\r\n', 'ilot_3_lieu_6_ill_1\r\n', NULL, 3),
+(16, NULL, 'Champ Jacquet (sud)\r\n', 'Champ Jacquet vers midy puis le coing qui est vis à vis la grosse horloge jusques a la cour de provosté\r\n', NULL, 'ilot_3_lieu_7_titre\r\n', 'ilot_3_lieu_7_ill_1\r\n', NULL, 3),
+(17, NULL, 'Petite Cour de Rennes ou Cour de la Prévôté (ouest du Champ Jacquet)\r\n', 'Cour de la Provosté de Rennes vers oriant jusques à la salle basse du Presidial\r\n', NULL, 'ilot_3_lieu_8_titre\r\n', 'ilot_3_lieu_8_ill_1\r\n', NULL, 3),
+(18, NULL, 'Cour de la Prévôté (ouest)\r\n', 'Cour de la Provosté vers occidant\r\n', NULL, 'ilot_3_lieu_9_titre\r\n', 'ilot_3_lieu_9_ill_1\r\n', NULL, 3),
+(19, NULL, 'Champ Jacquet (nord)\r\n', 'Haut du Champ Jacquet vers occidant depuis la porte de la cour de la Provosté jusques a la Porte aux Foullons', NULL, 'ilot_3_lieu_10_titre\r\n', 'ilot_3_lieu_10_ill_1\r\n', NULL, 3),
+(20, NULL, 'Petit Bout de Cohue (ouest)\r\n', 'Petit Bout de Cohue vers occidant a commancer à la maison qui fait le coing de la halle et de la rue Dupuet jusques à l\'autre maison qui fait le coing de la halle et de la rue de la Feronnie\r\n', NULL, 'ilot_4_lieu_1_titre\r\n', 'ilot_4_lieu_1_ill_1\r\n', NULL, 4),
+(21, NULL, 'Grand Bout de Cohue (nord)\r\n', 'Grand Bout de Cohue vers septentrion depuis la petite porte de la halle de cohue jusques au Grand Bout de Cohue vers oriant\r\n', NULL, 'ilot_4_lieu_3_titre\r\n', 'ilot_4_lieu_3_ill_1\r\n', NULL, 4),
+(22, NULL, 'Grand Bout de Cohue (nord)\r\n', 'Grand Bout de Cohue vers septentrion puis la halle de Cohue jusques a la rue Saint Michel oriant\r\n', NULL, 'ilot_4_lieu_4_titre\r\n', 'ilot_4_lieu_4_ill_1\r\n', NULL, 4),
+(23, NULL, 'Grand Bout de Cohue (est)\r\n', 'Grand Bour de Cohue vers oriant jusques a la porte de la grande halle de cohue\r\n', NULL, 'ilot_4_lieu_5_titre\r\n', 'ilot_4_lieu_5_ill_1\r\n', NULL, 4),
+(24, NULL, 'Rue Saint Michel en Ville (est)\r\n', 'Rue Saint Michel oriant depuis le Grand Bout de Cohue jusques à la rue Dupuet\r\n', NULL, 'ilot_4_lieu_6_titre\r\n', 'ilot_4_lieu_6_ill_1\r\n', NULL, 4),
+(25, NULL, 'Rue Tristin (côté ouest)\r\n', 'Rue de Tristin vers occidant a prendre du coing de la Feronnerie jusques au bas des Porches cy apres\r\n', NULL, 'ilot_5_lieu_1_titre\r\n', 'ilot_5_lieu_1_ill_1\r\n', NULL, 5),
+(26, NULL, 'Porches de la Grande Pompe\r\n', 'Porches de la Grande Pompe vers septantrion depuis le coing de la rue Tristin jusques au coing de la Mittrie\r\n', NULL, 'ilot_5_lieu_2_titre\r\n', 'ilot_5_lieu_1_ill_1\r\n', NULL, 5),
+(27, NULL, 'Rue de la Mittrie (côté est)\r\n', 'Rue de la Mitrie vers occidant depuis le hault des Porches jusques au Grand Bout de Cohue \r\n', NULL, 'ilot_5_lieu_3_titre\r\n', 'ilot_5_lieu_1_ill_1\r\n', NULL, 5),
+(28, NULL, 'Grand Bout de Cohue (côté sud)\r\n', 'Grand Bout de Cohue vers oriant vis a vis Saint Sauveur\r\n', NULL, 'ilot_5_lieu_4_titre\r\n', 'ilot_5_lieu_1_ill_1\r\n', NULL, 5),
+(29, NULL, 'Grand Bout de Cohue (côté est)\r\n', 'Grand Bout de Cohue vers oriant vis a vis Saint Sauveur \r\n ', NULL, 'ilot_5_lieu_5_titre\r\n', 'ilot_5_lieu_1_ill_1\r\n', NULL, 5),
+(30, NULL, 'Rue de la Mittrie (ouest)\r\n', 'Rue de la Mittrie vers occidant puis le coing pres Saint Sauveur jusques au coing de la rue du Chapitre\r\n', NULL, 'ilot_6_lieu_1_titre\r\n', 'ilot_6_lieu_1_ill_1\r\n', NULL, 6),
+(31, NULL, 'Rue du Chapître (nord)\r\n', 'Rue du Chapitre vers septentrion jusque au coing de la Sallette\r\n', NULL, 'ilot_6_lieu_2_titre\r\n', 'ilot_6_lieu_1_ill_1\r\n', NULL, 6),
+(32, NULL, 'Rue Saint-Sauveur (sud)\r\n', 'Rue Saint Sauveur vers midy depuis le coing de la rue de la Sallete jusques au coing de la Mitrie\r\n', NULL, 'ilot_6_lieu43_titre\r\n', 'ilot_6_lieu_1_ill_1\r\n', NULL, 6),
+(33, NULL, 'Rue du Chapitre (sud)\r\n', 'Rue du Chapitre vers midy depuis le coing de la Grande Pompe jusques au coing de la rue des Loriers\r\n', NULL, 'ilot_7_lieu_1_titre\r\n', 'ilot_7_lieu_1_ill_1\r\n', NULL, 7),
+(34, NULL, 'Rue des Loriers (est)\r\n', 'Rue des Loriers vers oriant depuis la rue du Chapitre jusques à la rue Saint-Yves\r\n', NULL, 'ilot_7_lieu_2_titre\r\n', 'ilot_7_lieu_1_ill_1\r\n', NULL, 7),
+(35, NULL, 'Rue Saint Yves (nord)\r\n', 'Rue Saint Yves vers septentrion depuis le coing de la rue des Loriers jusques à la Grande Pompe\r\n', NULL, 'ilot_7_lieu_3_titre\r\n', 'ilot_7_lieu_1_ill_1\r\n', NULL, 7),
+(36, NULL, 'Place de la Grande Pompe (ouest)\r\n', 'Placis de la Grande Pompe vers occidant depuis la Saint Yves jusques a la rue du Chapitre \r\n', NULL, 'ilot_7_lieu_4_titre\r\n', 'ilot_7_lieu_1_ill_1\r\n', NULL, 7),
+(37, NULL, 'Rue du Griffon (nord)\r\n', 'Rue du Griffon vers septentrion depuis la rue de la Sallette jusques à la rue des Dames\r\n', NULL, 'ilot_8_lieu_1_titre\r\n', 'ilot_8_lieu_1_ill_1\r\n', NULL, 8),
+(38, NULL, 'Rue des Dames (est)\r\n', 'Rue des Dames vers oriant antiennement rue Saint Denis depuis le coing de la rue du Griffon jusques à la tresorerie pres la tour St Pierre.\r\n', NULL, 'ilot_8_lieu_2_titre\r\n', 'ilot_8_lieu_1_ill_1\r\n', NULL, 8),
+(39, NULL, 'La Trésorerie (sud)\r\n', 'Tresorerie vers Saint Pierre vers midy jusques a la venelle et entrée de Saint Pierre vers la Sallete\r\n', NULL, 'ilot_8_lieu_3_titre\r\n', 'ilot_8_lieu_1_ill_1\r\n', NULL, 8),
+(40, NULL, 'Rue de la Psalette (ouest)\r\n', 'Rue de la Sallete vers occidant depuis l\'eglise Saint Pierre jusques a la rue du Griffon\r\n ', NULL, 'ilot_8_lieu_4_titre\r\n', 'ilot_8_lieu_1_ill_1\r\n', NULL, 8),
+(41, NULL, 'Rue des Loriers (ouest)\r\n', 'Rue des Dames antiennement appellée rue Saint Denis vers septantrion et oriant depuis la rue des Loriers jusques a la rue du Griffon\r\n', NULL, 'ilot_9_lieu_2_titre\r\n', 'ilot_8_lieu_1_ill_1\r\n', NULL, 9),
+(42, NULL, 'Rue des Dames (nord)\r\n', 'Rue des Dames antiennement appellée rue Saint Denis vers septantrion et oriant depuis la rue des Loriers jusques a la rue du Griffon\r\n', NULL, 'ilot_9_lieu_2_titre\r\n', 'ilot_8_lieu_1_ill_1\r\n', NULL, 9),
+(43, NULL, 'Rue du Griffon (sud)\r\n', 'Rue du Griffon vers midy depuis la rue des Dames jusques jusques (sic) a la rue des Loriers\r\n', NULL, 'ilot_9_lieu_3_titre\r\n', 'ilot_8_lieu_1_ill_1\r\n', NULL, 9);
+
 -- --------------------------------------------------------
 
 --
@@ -164,6 +212,7 @@ INSERT INTO `site` (`site_tabtitle`, `site_titre`, `site_description`) VALUES
 CREATE TABLE `users` (
   `user_id` int(10) NOT NULL,
   `user_identifiant` varchar(100) NOT NULL,
+  `user_nom` varchar(250) NOT NULL,
   `user_pass` varchar(500) NOT NULL,
   `user_role` varchar(50) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
@@ -172,10 +221,13 @@ CREATE TABLE `users` (
 -- Déchargement des données de la table `users`
 --
 
-INSERT INTO `users` (`user_id`, `user_identifiant`, `user_pass`, `user_role`) VALUES
-(1, 'test_user', '36d169a073236da5d569e9b2bdf4071be7b3f36c7c814c1675252be2dbf0d083', 'user'),
-(2, 'test_admin', '9759c2c77b75d56d1bdbfec5e83a92e8f8b273d365f3ce406b0704642505e3db', 'admin'),
-(3, 'test_contributor', '0ae3166126d78ece468fcdedaeba90f1f82179959dceaa5c4319ec4b41d56a21', 'contributor');
+INSERT INTO `users` (`user_id`, `user_identifiant`, `user_nom`, `user_pass`, `user_role`) VALUES
+(1, 'test_user', 'Utilisateur Lambda', '36d169a073236da5d569e9b2bdf4071be7b3f36c7c814c1675252be2dbf0d083', 'user'),
+(2, 'test_admin', 'Administrateur', '9759c2c77b75d56d1bdbfec5e83a92e8f8b273d365f3ce406b0704642505e3db', 'admin'),
+(3, 'test_contributor', 'Contributeur Lambda', '0ae3166126d78ece468fcdedaeba90f1f82179959dceaa5c4319ec4b41d56a21', 'contributor'),
+(5, 'contributeur_1', 'Contributeur Lambda 2', 'effefefe', 'contributor'),
+(6, 'contributeur_3', 'Contributeur Lambda 3', 'effefefe', 'contributor'),
+(7, 'admin_2', 'Administrateur 2', 'thfgfhgf', 'admin');
 
 --
 -- Index pour les tables déchargées
@@ -240,7 +292,7 @@ ALTER TABLE `ilots`
 -- AUTO_INCREMENT pour la table `lieux`
 --
 ALTER TABLE `lieux`
-  MODIFY `lieu_id` int(10) NOT NULL AUTO_INCREMENT;
+  MODIFY `lieu_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44;
 
 --
 -- AUTO_INCREMENT pour la table `parcelles`
@@ -258,7 +310,7 @@ ALTER TABLE `propriétaires`
 -- AUTO_INCREMENT pour la table `users`
 --
 ALTER TABLE `users`
-  MODIFY `user_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `user_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- Contraintes pour les tables déchargées
