@@ -88,6 +88,16 @@
                             Déconnexion
                         </p>
                     </li>
+                    
+                    <!-- Gestion -->
+                    <li class="nav-item text-center px-3">
+                        <a class="btn-floating waves-effect btn-md cloudy-knoxville-gradient" href="' . $baseurl . 'Gestion/'. $_SESSION['ident'] .'">
+                            <i class="marrondylan fas fa-tools fa-lg"></i>
+                        </a>
+                        <p>
+                            Gestion
+                        </p>
+                    </li>
                 ';
             }
             ?>
