@@ -1,16 +1,16 @@
-<nav class="navbar navbar-expand-lg navbar-light white fixed-top mb-lg-5">
+<nav class="navbar navbar-expand-lg navbar-light white sticky-top">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
             aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse w-100 mx-5 scrolling-navbar" id="navbar">
+    <div class="collapse navbar-collapse mx-5 scrolling-navbar w-responsive" id="navbar">
         <!-- Logo -->
         <a class="navbar-brand" href="<?php echo base_url() ?>">
             <img src="<?php echo base_url() ?>assets/images/logo_memoire-des-lieux.png" height="150" alt="Logo Mémoire des Lieux">
         </a>
 
         <!-- Recherche -->
-        <div class="container form-inline form-group w-100 md-form input-with-post-icon">
+        <div class="container form-inline form-group w-responsive md-form input-with-post-icon">
             <input class="form-control w-100 px-3" id="recherche" type="text" placeholder="Recherche" aria-label="Recherche">
         </div>
 

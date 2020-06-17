@@ -10,7 +10,7 @@
 
     <div class="mask rgba-black-strong">
 
-        <div class="container-fluid d-flex align-items-center justify-content-center h-100">
+        <div class="container-fluid d-flex align-items-center justify-content-center w-responsive">
 
             <div class="row justify-content-center text-center">
 
