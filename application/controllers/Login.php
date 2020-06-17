@@ -36,17 +36,20 @@ class Login extends CI_Controller {
 
 		if( $reponse_A ){
 			$_SESSION['ident'] = "admin";
+			$_SESSION['identifiant'] = $this->input->post('identifiant');
 
 			redirect(base_url().'Gestion/'.$_SESSION['ident']);
 		}
 
 		elseif( $reponse_U ){
 			$_SESSION['ident'] = "user";
+			$_SESSION['identifiant'] = $this->input->post('identifiant');
 			redirect(base_url().'Gestion/'.$_SESSION['ident']);
 		}
 
 		elseif( $reponse_C ){
 			$_SESSION['ident'] = "contributor";
+			$_SESSION['identifiant'] = $this->input->post('identifiant');
 			redirect(base_url().'Gestion/'.$_SESSION['ident']);
 		}
 
