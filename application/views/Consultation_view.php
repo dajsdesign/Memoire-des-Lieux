@@ -157,19 +157,17 @@
                                         &dash; <?php echo $ligne->ilot_titre ?></option>
                                 <?php } ?>
                             </select>
-                            <button type="submit" >Envoyer</button>
+                            <button type="submit">Envoyer</button>
                         </form>
                     </div>
                 </div>
             </div>
-        <div>
-            <?php
-            if (isset($_POST['ilots_value'])) {
-                $ilot_value = $this->input->post('ilots_value');
-                $reponse = $this->db->query("SELECT ilot_titre FROM ilots WHERE ilot_id='.$ilot_value.'");
-		 	echo $reponse;
-		 } ?>
-        </div>
+            <div>
+                <?php
+                if (isset($_POST['ilots_value'])) {
+
+                } ?>
+            </div>
     </div>
 </main>
 

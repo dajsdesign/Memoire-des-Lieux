@@ -13,4 +13,9 @@ class Consultation extends CI_Controller {
 		$this->load->view('Head_view', $data);
 		$this->load->view('Consultation_view', $data);
 	}
+
+	public function affichageilots()
+    {
+        $data['ilot'] = $this->Consultation_model->infoilots();
+    }
 }
