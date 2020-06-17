@@ -2,10 +2,10 @@
 -- version 5.0.2
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Jun 17, 2020 at 10:39 AM
--- Server version: 10.4.11-MariaDB
--- PHP Version: 7.4.6
+-- Hôte : 127.0.0.1
+-- Généré le : mer. 17 juin 2020 à 14:22
+-- Version du serveur :  10.4.11-MariaDB
+-- Version de PHP : 7.4.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,13 +18,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `memoiredeslieux`
+-- Base de données : `memoiredeslieux`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `articles`
+-- Structure de la table `articles`
 --
 
 CREATE TABLE `articles` (
@@ -34,7 +34,7 @@ CREATE TABLE `articles` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `articles`
+-- Déchargement des données de la table `articles`
 --
 
 INSERT INTO `articles` (`article_id`, `article_titre`, `article_contenu`) VALUES
@@ -48,7 +48,7 @@ INSERT INTO `articles` (`article_id`, `article_titre`, `article_contenu`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `ilots`
+-- Structure de la table `ilots`
 --
 
 CREATE TABLE `ilots` (
@@ -66,7 +66,7 @@ CREATE TABLE `ilots` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `ilots`
+-- Déchargement des données de la table `ilots`
 --
 
 INSERT INTO `ilots` (`ilot_id`, `ilot_titre`, `ilot_description`, `ilot_image1`, `ilot_image2`, `ilot_image3`, `ilot_image4`, `ilot_image5`, `ilot_image6`, `ilot_image7`, `lieux_lieu_id`) VALUES
@@ -84,7 +84,7 @@ INSERT INTO `ilots` (`ilot_id`, `ilot_titre`, `ilot_description`, `ilot_image1`,
 -- --------------------------------------------------------
 
 --
--- Table structure for table `lieux`
+-- Structure de la table `lieux`
 --
 
 CREATE TABLE `lieux` (
@@ -102,7 +102,7 @@ CREATE TABLE `lieux` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `parcelles`
+-- Structure de la table `parcelles`
 --
 
 CREATE TABLE `parcelles` (
@@ -114,13 +114,14 @@ CREATE TABLE `parcelles` (
   `parcelle_sources_1646` varchar(5000) DEFAULT NULL,
   `parcelle_sources_1673` varchar(5000) DEFAULT NULL,
   `parcelle_sources_18eme` varchar(5000) DEFAULT NULL,
-  `lieux_lieu_id` int(10) DEFAULT NULL
+  `lieux_lieu_id` int(10) DEFAULT NULL,
+  `modified_on` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `propriétaires`
+-- Structure de la table `propriétaires`
 --
 
 CREATE TABLE `propriétaires` (
@@ -138,7 +139,7 @@ CREATE TABLE `propriétaires` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `site`
+-- Structure de la table `site`
 --
 
 CREATE TABLE `site` (
@@ -148,7 +149,7 @@ CREATE TABLE `site` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `site`
+-- Déchargement des données de la table `site`
 --
 
 INSERT INTO `site` (`site_tabtitle`, `site_titre`, `site_description`) VALUES
@@ -157,7 +158,7 @@ INSERT INTO `site` (`site_tabtitle`, `site_titre`, `site_description`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `users`
+-- Structure de la table `users`
 --
 
 CREATE TABLE `users` (
@@ -168,7 +169,7 @@ CREATE TABLE `users` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `users`
+-- Déchargement des données de la table `users`
 --
 
 INSERT INTO `users` (`user_id`, `user_identifiant`, `user_pass`, `user_role`) VALUES
@@ -177,106 +178,106 @@ INSERT INTO `users` (`user_id`, `user_identifiant`, `user_pass`, `user_role`) VA
 (3, 'test_contributor', '0ae3166126d78ece468fcdedaeba90f1f82179959dceaa5c4319ec4b41d56a21', 'contributor');
 
 --
--- Indexes for dumped tables
+-- Index pour les tables déchargées
 --
 
 --
--- Indexes for table `articles`
+-- Index pour la table `articles`
 --
 ALTER TABLE `articles`
   ADD PRIMARY KEY (`article_id`);
 
 --
--- Indexes for table `ilots`
+-- Index pour la table `ilots`
 --
 ALTER TABLE `ilots`
   ADD PRIMARY KEY (`ilot_id`),
   ADD KEY `FK_Ilots_lieux_lieu_id` (`lieux_lieu_id`);
 
 --
--- Indexes for table `lieux`
+-- Index pour la table `lieux`
 --
 ALTER TABLE `lieux`
   ADD PRIMARY KEY (`lieu_id`),
   ADD KEY `FK_Lieux_ilots_ilot_id` (`ilots_ilot_id`);
 
 --
--- Indexes for table `parcelles`
+-- Index pour la table `parcelles`
 --
 ALTER TABLE `parcelles`
   ADD PRIMARY KEY (`parcelle_id`),
   ADD KEY `FK_Parcelles_lieux_lieu_id` (`lieux_lieu_id`);
 
 --
--- Indexes for table `propriétaires`
+-- Index pour la table `propriétaires`
 --
 ALTER TABLE `propriétaires`
   ADD PRIMARY KEY (`proprio_id`);
 
 --
--- Indexes for table `users`
+-- Index pour la table `users`
 --
 ALTER TABLE `users`
   ADD PRIMARY KEY (`user_id`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- AUTO_INCREMENT pour les tables déchargées
 --
 
 --
--- AUTO_INCREMENT for table `articles`
+-- AUTO_INCREMENT pour la table `articles`
 --
 ALTER TABLE `articles`
   MODIFY `article_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
--- AUTO_INCREMENT for table `ilots`
+-- AUTO_INCREMENT pour la table `ilots`
 --
 ALTER TABLE `ilots`
   MODIFY `ilot_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
--- AUTO_INCREMENT for table `lieux`
+-- AUTO_INCREMENT pour la table `lieux`
 --
 ALTER TABLE `lieux`
   MODIFY `lieu_id` int(10) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT for table `parcelles`
+-- AUTO_INCREMENT pour la table `parcelles`
 --
 ALTER TABLE `parcelles`
   MODIFY `parcelle_id` int(10) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT for table `propriétaires`
+-- AUTO_INCREMENT pour la table `propriétaires`
 --
 ALTER TABLE `propriétaires`
   MODIFY `proprio_id` int(10) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT for table `users`
+-- AUTO_INCREMENT pour la table `users`
 --
 ALTER TABLE `users`
-  MODIFY `user_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `user_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
--- Constraints for dumped tables
+-- Contraintes pour les tables déchargées
 --
 
 --
--- Constraints for table `ilots`
+-- Contraintes pour la table `ilots`
 --
 ALTER TABLE `ilots`
   ADD CONSTRAINT `FK_Ilots_lieux_lieu_id` FOREIGN KEY (`lieux_lieu_id`) REFERENCES `lieux` (`lieu_id`);
 
 --
--- Constraints for table `lieux`
+-- Contraintes pour la table `lieux`
 --
 ALTER TABLE `lieux`
   ADD CONSTRAINT `FK_Lieux_ilots_ilot_id` FOREIGN KEY (`ilots_ilot_id`) REFERENCES `ilots` (`ilot_id`);
 
 --
--- Constraints for table `parcelles`
+-- Contraintes pour la table `parcelles`
 --
 ALTER TABLE `parcelles`
   ADD CONSTRAINT `FK_Parcelles_lieux_lieu_id` FOREIGN KEY (`lieux_lieu_id`) REFERENCES `lieux` (`lieu_id`);
