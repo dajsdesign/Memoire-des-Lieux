@@ -32,15 +32,16 @@ class Gestion extends CI_Controller
         $this->load->view('Gestion_Admin_view');
     }
 
-    public function ChangementPass($ancien, $nouveau)
+    public function ChangementPass()
     {
         // Récupération et stockage de l'ancien mot de passe et du nouveau mot de passe
         $ancien = $this->input->post('ancien');
 		$nouveau = $this->input->post('nouveau');
+		$identifiant = $_SESSION['identifiant'];
 		// Chargement du model
 		$this->load->model('Login_model');
 		// Changement du mot de passe !
-		$this->Login_model->changementMdp($ancien,$nouveau);
+		$this->Login_model->changementMdp($ancien,$nouveau,$identifiant);
     }
 
 }
