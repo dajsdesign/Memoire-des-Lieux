@@ -9,6 +9,9 @@ class Login extends CI_Controller {
 
 	public function index()
 	{
+		$this->load->model('Head_model');
+		$data['toutes'] = $this->Head_model->chargement_head();
+		$this->load->view('Head_view', $data);
 		if (!isset($_SESSION['ident']))
 		{
 			$this->load->view('Loginform_view');
