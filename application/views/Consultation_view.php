@@ -13,7 +13,6 @@
             <div class="row justify-content-center text-center">
 
 
-
             </div>
 
         </div>
@@ -21,7 +20,7 @@
     </div>
 
 </div>
-<main class="pt-5 orange lighten-5"  style="background-color: white;">
+<main class="pt-5 orange lighten-5" style="background-color: white;">
     <div class="container w-responsive" style="background-color: white;">
 
         <section id="best-features" style="">
@@ -32,8 +31,10 @@
 
                 <div class="col-md-8">
 
-                    <p class="">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod lorem ipsum
-                        dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod Lorem ipsum dolor sit
+                    <p class="">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                        lorem ipsum
+                        dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod Lorem ipsum dolor
+                        sit
                         amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod </p>
 
                 </div>
@@ -60,7 +61,8 @@
                         <div class="carousel-item active">
                             <div class="col-12 col-md-4">
                                 <div class="card mb-2">
-                                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img (36).jpg"
+                                    <img class="card-img-top"
+                                         src="https://mdbootstrap.com/img/Photos/Others/img (36).jpg"
                                          alt="Card image cap">
                                     <div class="card-body brown lighten-2">
                                         <h4 class="card-title font-weight-bold text-center">Name 1</h4>
@@ -72,7 +74,8 @@
                         <div class="carousel-item">
                             <div class="col-12 col-md-4">
                                 <div class="card mb-2">
-                                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img (36).jpg"
+                                    <img class="card-img-top"
+                                         src="https://mdbootstrap.com/img/Photos/Others/img (36).jpg"
                                          alt="Card image cap">
                                     <div class="card-body brown lighten-2">
                                         <h4 class="card-title font-weight-bold text-center">Name2</h4>
@@ -84,7 +87,8 @@
                         <div class="carousel-item">
                             <div class="col-12 col-md-4">
                                 <div class="card mb-2">
-                                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img (36).jpg"
+                                    <img class="card-img-top"
+                                         src="https://mdbootstrap.com/img/Photos/Others/img (36).jpg"
                                          alt="Card image cap">
                                     <div class="card-body brown lighten-2">
                                         <h4 class="card-title font-weight-bold text-center">Name3</h4>
@@ -132,7 +136,7 @@
                 <div class="col">
                     <div class="card card-cascade wider reverse text-center">
 
-                        <div >
+                        <div>
                             <img class="card-img-top" style="width: 70%" src="assets/images/carte-interactive.png"
                                  alt="Card image cap">
                             <a href="#!">
@@ -145,13 +149,14 @@
             <div class="row">
                 <div class="col">
                     <div class="text-center marrondylan">
-                    <select class="mdb-select marrondylan md-form dropdown-dark">
-                        <option value="" disabled selected>Sélectionnez un ilôt</option>
-                        <?php foreach ($ilots as $ligne ) {    ?>
-                            <option class="" value="<?php echo $ligne->ilot_id ?>"><?php echo $ligne->ilot_id ?> &dash; <?php echo $ligne->ilot_titre ?></option>
-                        <?php } ?>
-                    </select>
-                </div>
+                        <select class="mdb-select marrondylan md-form dropdown-dark">
+                            <option value="" disabled selected>Sélectionnez un ilôt</option>
+                            <?php foreach ($ilots as $ligne) { ?>
+                                <option class="" value="<?php echo $ligne->ilot_id ?>"><?php echo $ligne->ilot_id ?>
+                                    &dash; <?php echo $ligne->ilot_titre ?></option>
+                            <?php } ?>
+                        </select>
+                    </div>
                 </div>
             </div>
 
