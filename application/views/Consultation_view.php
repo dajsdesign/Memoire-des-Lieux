@@ -99,36 +99,7 @@
 
                     </div>
                 </div>
-                <section/>
-
-                <!-- <div class="row">
-
-                <div class="col-md-4 mb-5">
-                    <i class="fa fa-lightbulb fa-4x brown-text lighten-2"></i>
-                    <h4 class="my-4 font-weight-bold">Title</h4>
-                    <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                        maiores nam,
-                        aperiam minima
-                        assumenda deleniti hic.</p>
-                </div>
-                <div class="col-md-4 mb-1">
-                    <i class="fa fa-globe fa-4x brown-text lighten-2"></i>
-                    <h4 class="my-4 font-weight-bold">Make research</h4>
-                    <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                        maiores nam,
-                        aperiam minima
-                        assumenda deleniti hic.</p>
-                </div>
-                <div class="col-md-4 mb-1">
-                    <i class="fa fa-cog fa-4x brown-text lighten-2"></i>
-                    <h4 class="my-4 font-weight-bold">Do the work</h4>
-                    <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                        maiores nam,
-                        aperiam minima
-                        assumenda deleniti hic.</p>
-                </div>
-
-            </div> -->
+                </section>
 
             </section>
 
