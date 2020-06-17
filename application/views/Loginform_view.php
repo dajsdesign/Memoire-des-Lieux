@@ -14,14 +14,14 @@
                 <div class="modal-body mx-3">
                     <div class="md-form mb-5">
                         <i class="fas fa-user prefix grey-text"></i>
-                        <input type="text" name="identifiant" id="defaultForm-email" class="form-control validate">
-                        <label data-error="wrong" data-success="right" for="defaultForm-email">Identifiant</label>
+                        <input type="text" name="identifiant" id="defaultForm-email" class="form-control validate mx-5">
+                        <label class="mx-5" data-error="wrong" data-success="right" for="defaultForm-email">Identifiant</label>
                     </div>
 
                     <div class="md-form mb-4">
                         <i class="fas fa-lock prefix grey-text"></i>
-                        <input type="password" name="password" id="defaultForm-pass" class="form-control validate">
-                        <label data-error="wrong" data-success="right" for="defaultForm-pass">Mot de passe</label>
+                        <input type="password" name="password" id="defaultForm-pass" class="form-control validate mx-5">
+                        <label class="mx-5" data-error="wrong" data-success="right" for="defaultForm-pass">Mot de passe</label>
                     </div>
 
                     <!--<div class="form-group mt-4">
