@@ -17,7 +17,7 @@
                 <div class="col">
 
                     <!-- Heading -->
-                    <img style="max-width: 500px;" class="img-fluid pt-3 text-center align-content-center mx-auto d-block"
+                    <img style="max-width: 500px;" class="img-fluid pt-3 text-center align-content-center mx-auto d-block w-responsive"
                          src="<?php echo base_url() ?>assets/images/logo_memoire-des-lieux.png">
 
                     <!-- Divider -->
