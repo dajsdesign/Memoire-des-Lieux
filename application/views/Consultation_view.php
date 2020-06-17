@@ -21,7 +21,7 @@
     </div>
 
 </div>
-<main class="pt-5 orange lighten-5"  style="background-color: white; margin-top: -5rem !important; z-index: 30000 !important;">
+<main class="pt-5 orange lighten-5"  style="background-color: white;">
     <div class="container" style="background-color: white;">
 
         <section id="best-features" style="">
@@ -143,7 +143,16 @@
             </div>
 
         </section>
-
+<section>
+    <div class="select-style">
+        <select>
+            <option value="volvo">Quartier1</option>
+            <option value="saab">Quartier2</option>
+            <option value="mercedes">Quartier3</option>
+            <option value="audi">Quartier4</option>
+        </select>
+    </div>
+</section>
 
     </div>
 </main>
