@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.1
+-- version 5.0.2
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 16, 2020 at 05:02 PM
+-- Generation Time: Jun 17, 2020 at 10:39 AM
 -- Server version: 10.4.11-MariaDB
--- PHP Version: 7.2.27
+-- PHP Version: 7.4.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -32,7 +31,7 @@ CREATE TABLE `articles` (
   `article_id` int(10) NOT NULL,
   `article_titre` varchar(250) DEFAULT NULL,
   `article_contenu` varchar(5000) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `articles`
@@ -143,6 +142,7 @@ CREATE TABLE `propriétaires` (
 --
 
 CREATE TABLE `site` (
+  `site_tabtitle` varchar(250) NOT NULL,
   `site_titre` varchar(250) DEFAULT NULL,
   `site_description` varchar(5000) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
@@ -151,8 +151,8 @@ CREATE TABLE `site` (
 -- Dumping data for table `site`
 --
 
-INSERT INTO `site` (`site_titre`, `site_description`) VALUES
-('RENNES, CAPITALE BRETONNE – DE 1455 À LA RÉVOLUTION', 'Ce site met à disposition des chercheurs,\r\nétudiants, professeurs, historiens et en même temps du grand public un outil collaboratif qui permettra l\'indexation, la transcription et la publication de différentes sources historiques disponibles dans les fonds des archives publiques. Le projet a pour objectif de faciliter la recherche archéologique et historique sur les centres urbains de l\'ouest de la France (il sera amené ultérieurement à couvrir la totalité du territoire national), à l\'époque médiévale et à l\'époque moderne (du XVème au début du XIXème siècle).\r\n\r\nLes informations précieuses fournies par les réformations dont j’ai commencé l’indexation, seront complétées par l’étude des plans de la ville disponibles pour les 17ème et 18ème siècles, les registres de la communauté des marchands merciers, les registres paroissiaux (ou du moins leurs relevés), et les tout premiers rôles de la capitation. D’autres documents, comme les trop rares livres de raisons et certaines archives des juridictions viendront s’ajouter à la liste au fil des recherches.');
+INSERT INTO `site` (`site_tabtitle`, `site_titre`, `site_description`) VALUES
+('Mémoire des Lieux - Projet Web Dynamique', 'RENNES, CAPITALE BRETONNE – DE 1455 À LA RÉVOLUTION', 'Ce site met à disposition des chercheurs,\r\nétudiants, professeurs, historiens et en même temps du grand public un outil collaboratif qui permettra l\'indexation, la transcription et la publication de différentes sources historiques disponibles dans les fonds des archives publiques. Le projet a pour objectif de faciliter la recherche archéologique et historique sur les centres urbains de l\'ouest de la France (il sera amené ultérieurement à couvrir la totalité du territoire national), à l\'époque médiévale et à l\'époque moderne (du XVème au début du XIXème siècle).\r\n\r\nLes informations précieuses fournies par les réformations dont j’ai commencé l’indexation, seront complétées par l’étude des plans de la ville disponibles pour les 17ème et 18ème siècles, les registres de la communauté des marchands merciers, les registres paroissiaux (ou du moins leurs relevés), et les tout premiers rôles de la capitation. D’autres documents, comme les trop rares livres de raisons et certaines archives des juridictions viendront s’ajouter à la liste au fil des recherches.');
 
 -- --------------------------------------------------------
 
