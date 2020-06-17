@@ -148,7 +148,7 @@
     <div class="select-style">
         <select>
             <?php foreach ($ilots as $ligne ) {    ?>
-            <option value="<?php echo $ligne->ilot_id ?>"><?php echo $ligne->ilot_titre ?></option>
+            <option value="<?php echo $ligne->ilot_id ?>"><?php echo $ligne->ilot_id ?> &dash; <?php echo $ligne->ilot_titre ?></option>
             <?php } ?>
         </select>
     </div>
