@@ -10,21 +10,22 @@
 
     <div class="mask rgba-black-strong">
 
-        <div class="container-fluid d-flex align-items-center justify-content-center h-100">
+        <div class="container-fluid d-flex align-items-center justify-content-center w-responsive">
 
             <div class="row justify-content-center text-center">
 
                 <div class="col">
 
                     <!-- Heading -->
-                    <img style="max-width: 500px;" class="img-fluid pt-3 text-center align-content-center mx-auto d-block"
+                    <img style="max-width: 500px;"
+                         class="img-fluid pt-3 text-center align-content-center mx-auto d-block w-responsive"
                          src="<?php echo base_url() ?>assets/images/logo_memoire-des-lieux.png">
 
                     <!-- Divider -->
                     <hr class="hr-light">
                     <!-- Description -->
-                    <?php foreach ($toutes as $ligne ) { ?>
-                    <h4 class="white-text my-4"><?php echo $ligne->site_titre ?></h4>
+                    <?php foreach ($toutes as $ligne) { ?>
+                        <h4 class="white-text my-4"><?php echo $ligne->site_titre ?></h4>
                     <?php } ?>
                     <!-- Description -->
                     <a href="#1" id="1" class="btn-scroll scrollto" title="Scroll Down"><i
