@@ -17,15 +17,15 @@
                 <div class="col">
 
                     <!-- Heading -->
-                    <img class="w-50 p-3 text-center align-content-center"
+                    <img style="max-width: 500px;" class="img-fluid pt-3 text-center align-content-center mx-auto d-block"
                          src="<?php echo base_url() ?>assets/images/logo_memoire-des-lieux.png">
 
                     <!-- Divider -->
                     <hr class="hr-light">
                     <!-- Description -->
-                    <h4 class="white-text my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Deleniti
-                        consequuntur.</h4>
+                    <?php foreach ($toutes as $ligne ) { ?>
+                    <h4 class="white-text my-4"><?php echo $ligne->site_titre ?></h4>
+                    <?php } ?>
                     <!-- Description -->
                     <a href="#1" id="1" class="btn-scroll scrollto" title="Scroll Down"><i
                                 class="white-text fas fa-angle-down"></i></a>
@@ -48,7 +48,7 @@
         <section class="text-center">
 
             <!-- Heading -->
-            <h2 class="mb-5 font-weight-bold">Lorem ipsum</h2>
+            <h2 class="mb-5 font-weight-bold"><?php echo $ligne->site_titre ?></h2>
 
             <!--Grid row-->
             <div class="row d-flex justify-content-center mb-4">
@@ -57,12 +57,7 @@
                 <div class="col-md-8">
 
                     <!-- Description -->
-                    <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi voluptate
-                        hic
-                        provident nulla repellat
-                        facere esse molestiae ipsa labore porro minima quam quaerat rem, natus repudiandae debitis
-                        est
-                        sit pariatur.</p>
+                    <p class=""><?php echo $ligne->site_description ?></p>
 
                 </div>
                 <!--Grid column-->
