@@ -39,13 +39,14 @@
 
             <!-- Recherche avancée -->
             <li class="nav-item text-center px-3">
-                <a class="btn-floating waves-effect  btn-md cloudy-knoxville-gradient" href="#">
+                <a class="btn-floating waves-effect  btn-md cloudy-knoxville-gradient" data-toggle="modal" data-target="#modalSearch" href="#">
                     <i class="marrondylan fas fa-search fa-lg"></i>
                 </a>
                 <p>
                     Recherche avancée
                 </p>
             </li>
+            <?php $this->load->view('Search_view'); ?>
 
             <!-- Aide & Contact -->
             <li class="nav-item text-center px-3">
