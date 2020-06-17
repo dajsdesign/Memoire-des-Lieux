@@ -118,7 +118,10 @@
                     <div class="card-body card-body-cascade text-center">
 
                         <!-- Text -->
-                        <p class="card-text">L’université Rennes 2, dont le nom administratif est Rennes-II est, avec l’université de Rennes 1, l’une des deux universités rennaises. Elle a été créée en 1969, issue de l’ancienne faculté de lettres de l’université de Rennes dont l’origine remonte à la création de l’université ducale de Bretagne en 1460 à Nantes.
+                        <p class="card-text">L’université Rennes 2, dont le nom administratif est Rennes-II est, avec
+                            l’université de Rennes 1, l’une des deux universités rennaises. Elle a été créée en 1969,
+                            issue de l’ancienne faculté de lettres de l’université de Rennes dont l’origine remonte à la
+                            création de l’université ducale de Bretagne en 1460 à Nantes.
                         </p>
 
                         <hr>
@@ -148,7 +151,11 @@
                     <div class="card-body card-body-cascade text-center">
 
                         <!-- Text -->
-                        <p class="card-text">Une unité mixte de recherche (UMR), en France, est une entité administrative créée par la signature d'un contrat d'association d'un ou de plusieurs laboratoires de recherche d'un établissement d'enseignement supérieur (notamment d'université) ou d'un organisme de recherche avec le Centre national de la recherche scientifique (CNRS).</p>
+                        <p class="card-text">Une unité mixte de recherche (UMR), en France, est une entité
+                            administrative créée par la signature d'un contrat d'association d'un ou de plusieurs
+                            laboratoires de recherche d'un établissement d'enseignement supérieur (notamment
+                            d'université) ou d'un organisme de recherche avec le Centre national de la recherche
+                            scientifique (CNRS).</p>
 
                         <hr>
 
