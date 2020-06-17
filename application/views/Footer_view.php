@@ -128,13 +128,13 @@
 <!-- Footer -->
 
 <!-- Importing JS -->
-<script type="text/javascript" src="<?php echo base_url()?>assets/js/jquery.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url()?>assets/js/popper.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url()?>assets/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url()?>assets/js/mdb.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url() ?>assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url() ?>assets/js/popper.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url() ?>assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url() ?>assets/js/mdb.min.js"></script>
 <!-- Reveal when scrolling, add: wow fadeInUp classes -->
 <script type="text/javascript">
-    $(document).ready(function() {
+    $(document).ready(function () {
         new WOW().init();
     });
 </script>
@@ -168,17 +168,17 @@
     })
 </script>
 <script>
-    $('.carousel.carousel-multi-item.v-2 .carousel-item').each(function(){
+    $('.carousel.carousel-multi-item.v-2 .carousel-item').each(function () {
         var next = $(this).next();
         if (!next.length) {
             next = $(this).siblings(':first');
         }
         next.children(':first-child').clone().appendTo($(this));
 
-        for (var i=0;i<4;i++) {
-            next=next.next();
+        for (var i = 0; i < 4; i++) {
+            next = next.next();
             if (!next.length) {
-                next=$(this).siblings(':first');
+                next = $(this).siblings(':first');
             }
             next.children(':first-child').clone().appendTo($(this));
         }
@@ -190,7 +190,7 @@
         // Remove links that don't actually link to anything
         .not('[href="#"]')
         .not('[href="#0"]')
-        .click(function(event) {
+        .click(function (event) {
             // On-page links
             if (
                 location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
@@ -206,7 +206,7 @@
                     event.preventDefault();
                     $('html, body').animate({
                         scrollTop: target.offset().top
-                    }, 1000, function() {
+                    }, 1000, function () {
                         // Callback after animation
                         // Must change focus!
                         var $target = $(target);
@@ -214,9 +214,10 @@
                         if ($target.is(":focus")) { // Checking if the target was focused
                             return false;
                         } else {
-                            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+                            $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
                             $target.focus(); // Set focus again
-                        };
+                        }
+                        ;
                     });
                 }
             }
@@ -224,7 +225,12 @@
 </script>
 <script>
     // Material Select Initialization
-    $(document).ready(function() {
+    $(document).ready(function () {
         $('.mdb-select').materialSelect();
+    });
+</script>
+<script>
+    $(window).on('load', function () {
+        $('#mdb-preloader').delay(1000).fadeOut(300);
     });
 </script>
