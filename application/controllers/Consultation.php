@@ -28,7 +28,7 @@ class Consultation extends CI_Controller {
         $this->load->view('InfoLieux_view', $data);
     }
 
-    public function affichageparcelles($id=1)
+    public function affichageParcelles($id=1)
     {
         $this->load->model('Consultation_model');
         $data['parcelles'] = $this->Consultation_model->InfoParcelles($id);
