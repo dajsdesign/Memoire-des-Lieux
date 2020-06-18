@@ -20,4 +20,11 @@ class Consultation extends CI_Controller {
         $data['ilot'] = $this->Consultation_model->infoilots($id);
         $this->load->view('InfoIlots_view', $data);
     }
+
+    public function affichageLieux($id=1)
+    {
+        $this->load->model('Consultation_model');
+        $data['lieu'] = $this->Consultation_model->infolieux($id);
+        $this->load->view('InfoLieux_view', $data);
+    }
 }
