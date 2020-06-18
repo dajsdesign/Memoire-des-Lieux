@@ -26,12 +26,40 @@
                             <p class="card-text"><?php echo $ligne->ilot_description ?></p>
 
                             <hr>
-
                         </div>
 
                     </div>
                     <!-- Card -->
                 <?php } ?>
+            </div>
+        </div>
+        
+        <div class="row py-4">
+            <div class="col">
+                <div class="container text-center">
+                    <h4>Plan simplifié de l'ilôt</h4>
+                    <?php foreach ($ilot as $ligne) { ?>
+                    <img src="<?php echo base_url()?>assets/images/ilots/<?php echo $ligne->ilot_id?>/<?php echo $ligne->ilot_image2 ?>.gif" alt="" class="img-fluid">
+                    <?php } ?>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="container text-center">
+                    <h4>Plan semi-détaillé de l'ilôt</h4>
+                    <?php foreach ($ilot as $ligne) { ?>
+                    <img src="<?php echo base_url()?>assets/images/ilots/<?php echo $ligne->ilot_id?>/<?php echo $ligne->ilot_image1 ?>.gif" alt="" class="img-fluid">
+                    <?php } ?>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="container text-center">
+                    <h4>Plan détaillé de l'ilôt</h4>
+                    <?php foreach ($ilot as $ligne) { ?>
+                    <img src="<?php echo base_url()?>assets/images/ilots/<?php echo $ligne->ilot_id?>/<?php echo $ligne->ilot_image3 ?>.gif" alt="" class="img-fluid">
+                    <?php } ?>
+                </div>
             </div>
         </div>
     </div>
