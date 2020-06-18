@@ -33,6 +33,20 @@ class Consultation_model extends CI_Model
         $query = $this->db->query("SELECT * FROM `ilots` WHERE `ilot_id` = $id");
         return $query->result();
     }
+
+    public function infolieux()
+    {
+        $id = $this->input->post('lieux_value');
+        $query = $this->db->query("SELECT * FROM `lieux` WHERE `lieu_id` = $id");
+        return $query->result();
+    }
+
+    public function infoparcelles()
+    {
+        $id = $this->input->post('parcelles_value');
+        $query = $this->db->query("SELECT * FROM `parcelles` WHERE `parcelle_id` = $id");
+        return $query->result();
+    }
 }
 
 ?>
