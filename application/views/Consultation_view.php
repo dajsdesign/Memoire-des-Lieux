@@ -150,6 +150,23 @@
                     </div>
                 </div>
             </div>
+
+            <div class="row py-3">
+                <div class="col">
+                    <div class="text-center marrondylan">
+                        <form action="<?php echo base_url() ?>Consultation/affichageLieux/<?php $parcelles_value ?>" method="POST">
+                            <select name="lieux_value" class="mdb-select marrondylan md-form dropdown-dark">
+                                <option value="" disabled selected>Sélectionnez une parcelle</option>
+                                <?php foreach ($parcelles as $ligne) { ?>
+                                    <option class="" value="<?php echo $ligne->parcelle_id ?>"><?php echo $ligne->parcelle_id ?>
+                                        &dash; <?php echo $ligne->parcelle_titre ?></option>
+                                <?php } ?>
+                            </select>
+                            <button class="btn btn-dark" type="submit">Aller à cette parcelle</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </main>

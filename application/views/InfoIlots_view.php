@@ -31,6 +31,23 @@
                     </div>
                     <!-- Card -->
                 <?php } ?>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="text-center marrondylan">
+                    <form action="<?php echo base_url() ?>Consultation/affichageIlots/affichageLieux<?php $lieu_value ?>" method="POST">
+                        <select name="lieu_value" class="mdb-select marrondylan md-form dropdown-dark">
+                            <option value="" disabled selected>Sélectionnez un lieu</option>
+                            <?php foreach ($lieu as $ligne) { ?>
+                                <option class="" value="<?php echo $ligne->lieu_id ?>"><?php echo $ligne->lieu_id ?>
+                                    &dash; <?php echo $ligne->lieu_titre ?></option>
+                            <?php } ?>
+                        </select>
+                        <button class="btn btn-dark" type="submit">Envoyer</button>
+                    </form>
+                </div>
             </div>
         </div>
         
