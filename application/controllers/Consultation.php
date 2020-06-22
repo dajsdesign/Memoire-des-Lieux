@@ -13,4 +13,25 @@ class Consultation extends CI_Controller {
 		$this->load->view('Head_view', $data);
 		$this->load->view('Consultation_view', $data);
 	}
+
+	public function affichageIlots($id=1)
+    {
+        $this->load->model('Consultation_model');
+        $data['ilot'] = $this->Consultation_model->infoilots($id);
+        $this->load->view('InfoIlots_view', $data);
+    }
+
+    public function affichageLieux($id=1)
+    {
+        $this->load->model('Consultation_model');
+        $data['lieux'] = $this->Consultation_model->InfoLieux($id);
+        $this->load->view('InfoLieux_view', $data);
+    }
+
+    public function affichageParcelles($id=1)
+    {
+        $this->load->model('Consultation_model');
+        $data['parcelles'] = $this->Consultation_model->InfoParcelles($id);
+        $this->load->view('InfoParcelles_view', $data);
+    }
 }

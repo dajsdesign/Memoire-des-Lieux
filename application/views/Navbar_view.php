@@ -27,10 +27,10 @@
                     <i class="marrondylan far fa-eye fa-lg"></i>
                 </a>
                 <div class="dropdown-menu dropdown-dark" aria-labelledby="dropdown">
-                    <a class="dropdown-item" href="#">Quartiers</a>
-                    <a class="dropdown-item" href="#">Rues</a>
-                    <a class="dropdown-item" href="#">Parcelles</a>
-                    <a class="dropdown-item" href="#">Propriétaires</a>
+                    <a class="dropdown-item" href="<?php echo base_url() ?>Consultation">Quartiers</a>
+                    <a class="dropdown-item" href="<?php echo base_url() ?>Consultation">Rues</a>
+                    <a class="dropdown-item" href="<?php echo base_url() ?>Consultation">Parcelles</a>
+                    <a class="dropdown-item" href="<?php echo base_url() ?>Consultation">Propriétaires</a>
                     <a class="dropdown-item text-center" href="#" data-toggle="dropdown" aria-haspopup="true"
                        aria-expanded="false">
                         <i class="black-text far fa-times-circle fa-lg"></i>
@@ -86,6 +86,16 @@
                         </a>
                         <p>
                             Déconnexion
+                        </p>
+                    </li>
+                    
+                    <!-- Gestion -->
+                    <li class="nav-item text-center px-3">
+                        <a class="btn-floating waves-effect btn-md cloudy-knoxville-gradient" href="' . $baseurl . 'Gestion/'. $_SESSION['ident'] .'">
+                            <i class="marrondylan fas fa-tools fa-lg"></i>
+                        </a>
+                        <p>
+                            Gestion
                         </p>
                     </li>
                 ';

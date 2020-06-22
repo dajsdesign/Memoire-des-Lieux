@@ -1,7 +1,6 @@
 <?php $this->load->view('Head_view'); ?>
-
 <body class="w-100">
-
+<?php $this->load->view('Loader_view');?>
 <?php $this->load->view('Navbar_view'); ?>
 <!--Main Navigation-->
 
@@ -72,33 +71,24 @@
                 <!--Grid column-->
                 <div class="col-md-4 mb-5">
                     <i class="fa fa-lightbulb fa-4x brown-text lighten-2"></i>
-                    <h4 class="my-4 font-weight-bold">Title</h4>
-                    <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                        maiores nam,
-                        aperiam minima
-                        assumenda deleniti hic.</p>
+                    <h4 class="my-4 font-weight-bold">Présentation</h4>
+                    <p class="">Ce site est un outil colaboratif qui permettra l'indexation, la transcription et la publication de differentes sources historiques.  </p>
                 </div>
                 <!--Grid column-->
 
                 <!--Grid column-->
                 <div class="col-md-4 mb-1">
                     <i class="fa fa-globe fa-4x brown-text lighten-2"></i>
-                    <h4 class="my-4 font-weight-bold">Make research</h4>
-                    <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                        maiores nam,
-                        aperiam minima
-                        assumenda deleniti hic.</p>
+                    <h4 class="my-4 font-weight-bold">Recherchez</h4>
+                    <p class="">Utilisez la recherche avancée afin de faciliter votre navigation grace à des filtres (Années, Quartiers, Rues ...).</p>
                 </div>
                 <!--Grid column-->
 
                 <!--Grid column-->
                 <div class="col-md-4 mb-1">
                     <i class="fa fa-cog fa-4x brown-text lighten-2"></i>
-                    <h4 class="my-4 font-weight-bold">Do the work</h4>
-                    <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                        maiores nam,
-                        aperiam minima
-                        assumenda deleniti hic.</p>
+                    <h4 class="my-4 font-weight-bold">Contributeur</h4>
+                    <p class="">Notre site comporte un profil contributeur qui aide à l'ajout d'informations historiques sur des parcelles et/ou des propriétaires. </p>
                 </div>
                 <!--Grid column-->
 
@@ -133,21 +123,20 @@
 
 
                 <!-- Title -->
-                <button type="button" class="btn brown lighten-2 card-body card-body-cascade text-center white-text">S'y
+                <a href="<?php echo base_url() ?>Consultation"><button type="button" class="btn brown lighten-2 card-body card-body-cascade text-center white-text">S'y
                     rendre
-                </button>
+                </button></a>
 
 
             </div>
             <!-- Card -->
 
-            <p class="mt-5">Lorem ipsum Le Lorem Ipsum est simplement du faux texte employé dans la composition et la
-                mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les
-                années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre
-                spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la
-                bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années
-                1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment,
-                par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
+            <p class="mt-5">Pour commencer la consultation,
+                on s’aidera du plan de la ville découpé en îlots.
+                Leur numérotation reprend celle de la Réformation de 1673.
+                Chaque îlot correspond grosso modo à un pâté de maisons.
+                Sur la page de l’îlot sélectionné, on trouvera l’ensemble des données le concernant d’après le descriptif des lieux sur le registre.
+                Pour certaines parcelles, on pourra accéder à une page de ressources complémentaires (photographies des bâtiments, plans détaillés, inventaires, etc.).</p>
 
         </section>
         <!--Section: Carte interactive-->
@@ -159,18 +148,18 @@
 
             <!-- Heading -->
             <h2 class="mb-5 font-weight-bold text-center">Découvrez les dernières modifications</h2>
-            <p class="text-center">Lorem ipsumdszqiudjhbsiqjfbnsijbhfnijdshnfoijdshnfdoijkpfhndsoijfds</p>
+            <p class="text-center">Ici retrouvez les dernières modifications des contributeurs.</p>
 
             <div id="carousel-example-multi" class="carousel slide carousel-multi-item v-2" data-ride="carousel">
 
-                <!--Controls-->
+                <!--Controls droite/gauche-->
                 <div class="controls-top">
                     <a class="btn-floating brown lighten-2" href="#carousel-example-multi" data-slide="prev"><i
                                 class="fas fa-chevron-left"></i></a>
                     <a class="btn-floating brown lighten-2" href="#carousel-example-multi" data-slide="next"><i
                                 class="fas fa-chevron-right"></i></a>
                 </div>
-                <!--/.Controls-->
+                <!--/.Controls droite/gauche-->
 
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
