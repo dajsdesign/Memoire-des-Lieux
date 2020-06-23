@@ -79,6 +79,18 @@
                 </div>
             </div>
         </div>
+
+        <div class="row py-4">
+            <div class="col">
+                <div class="container text-center">
+                    <h4 class="py-4">Lieux faisant partie de l'ilôt</h4>
+                    <?php foreach ($lieux_ilot as $ligne) { ?>
+                        <h5><?php echo $ligne->lieu_titre ?></h5>
+                        <p><?php echo $ligne->lieu_soustitre ?></p>
+                    <?php } ?>
+                </div>
+            </div>
+        </div>
     </div>
 </main>
 

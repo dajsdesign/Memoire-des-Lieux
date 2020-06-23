@@ -18,6 +18,7 @@ class Consultation extends CI_Controller {
     {
         $this->load->model('Consultation_model');
         $data['ilot'] = $this->Consultation_model->infoilots($id);
+        $data['lieux_ilot'] = $this->Consultation_model->infoIlotsLieux($id);
         $this->load->view('InfoIlots_view', $data);
     }
 
