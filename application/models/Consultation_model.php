@@ -41,12 +41,12 @@ class Consultation_model extends CI_Model
         return $query->result();
     }
 
-    public function infoIlotsProprietaires()
+    /*public function infoIlotsProprietaires()
     {
         $id = $this->input->post('ilots_value');
         $query = $this->db->query("SELECT * FROM `lieux` WHERE `ilots_ilot_id` = $id");
         return $query->result();
-    }
+    }*/
 
     public function infolieux()
     {
